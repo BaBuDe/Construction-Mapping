@@ -28,8 +28,6 @@ angular.module('myApp.controllers', []).
 		"Bayshore"
 		];
 
-		// $scope.selectedHood = "Bayshore";
-
 		$scope.selectAction = function() {
     console.log($scope.selectedHood);
 		};

@@ -150,9 +150,7 @@ angular.module('myApp.directives', ['d3'])
                       .attr("y", 9)
                       .attr("dy", ".35em")
                       .style("text-anchor", "end")
-                      .text(function (d) {
-                      return d;
-                  });
+                      .text("Construction Phase");
               });                  
             }, true);
       
