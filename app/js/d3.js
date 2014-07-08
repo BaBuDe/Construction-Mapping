@@ -1,11 +1,10 @@
-// Set our margins
 var margin = {
     top: 20,
     right: 20,
     bottom: 30,
     left: 60
 },
-width = 960 - margin.left - margin.right,
+width = 960 - margisn.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // Our X scale
@@ -38,11 +37,13 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+    var neighborhoodSelected = "Richmond";
+
 // Fetch data via SODA from the Chicago data site
-d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?$select=units,best_stat&$where=planning_neighborhood", function (error, data) {
+d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?planning_neighborhood=" + neighborhoodSelected + "&$select=units,best_stat", function (error, data) {
     // // Make sure our numbers are really numbers
     // data.forEach(function (d) {
-    //     d.year = +d.year;
+    //     d.planning_neighborhood = +d.planning_neighborhood;
     //     d.bus = +d.bus;
     //     d.paratransit = +d.paratransit;
     //     d.rail = +d.rail;
@@ -52,7 +53,7 @@ d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?$select=units,best_stat&$wh
 
     // Use our values to set our color bands
     color.domain(d3.keys(data[0]).filter(function (key) {
-        return key !== "year";
+        return key !== "planning_neighborhood";
     }));
 
     data.forEach(function (d) {
@@ -67,19 +68,33 @@ d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?$select=units,best_stat&$wh
         d.total = d.types[d.types.length - 1].y1;
     });
 
-    // Sort by year
-    data.sort(function (a, b) {
-        return a.year - b.year;
-    });
+    constructionData = [];
+    plApprovedData = [];
+    for (var i = 0; i < data.length; i++) {
+      if(data[i]['Best Stat'] === "CONSTRUCTION") {
+        constructionData.push(data[i]);
+      } 
+      if (data[i]['Best Stat'] === "PL Approved") {
+        plApprovedData.push(data[i]);
+      }
+    }
+    console.log(constructionData);
+
+    // Sort by planning_neighborhood
+    // data.sort(function (a, b) {
+    //     return a.planning_neighborhood - b.planning_neighborhood;
+    // });
 
     // Our X domain is our set of years
     x.domain(data.map(function (d) {
-        return d.year;
+        // return d.planning_neighborhood;
+        return d['Best Stat'];
     }));
+
 
     // Our Y domain is from zero to our highest total
     y.domain([0, d3.max(data, function (d) {
-        return d.total;
+        return d.Units;
     })]);
 
     svg.append("g")
@@ -95,17 +110,17 @@ d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?$select=units,best_stat&$wh
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Ridership");
+        .text("Housing Units");
 
-    var year = svg.selectAll(".year")
+    var bestStat = svg.selectAll(".bestStat")
         .data(data)
         .enter().append("g")
         .attr("class", "g")
         .attr("transform", function (d) {
-        return "translate(" + x(d.year) + ",0)";
+        return "translate(" + x(d['Best Stat']) + ",0)";
     });
 
-    year.selectAll("rect")
+    bestStat.selectAll("rect")
         .data(function (d) {
         return d.types;
     })
