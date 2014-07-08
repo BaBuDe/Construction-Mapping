@@ -1,0 +1,2852 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'd3' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json karma-chrome-launcher@0.1.4 No README data
+6 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'd3', null ]
+9 verbose cache add name=undefined spec="d3" args=["d3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'd3',
+10 verbose parsed url   path: 'd3',
+10 verbose parsed url   href: 'd3' }
+11 silly lockFile 7cfd024b-d3 d3
+12 verbose lock d3 /Users/caly/.npm/7cfd024b-d3.lock
+13 silly lockFile 7cfd024b-d3 d3
+14 silly lockFile 7cfd024b-d3 d3
+15 verbose addNamed [ 'd3', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 97977b46-d3 d3@
+18 verbose lock d3@ /Users/caly/.npm/97977b46-d3.lock
+19 silly addNameRange { name: 'd3', range: '*', hasData: false }
+20 verbose url raw d3
+21 verbose url resolving [ 'https://registry.npmjs.org/', './d3' ]
+22 verbose url resolved https://registry.npmjs.org/d3
+23 info trying registry request attempt 1 at 19:15:14
+24 http GET https://registry.npmjs.org/d3
+25 http 200 https://registry.npmjs.org/d3
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:14 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"1CLB7BFEGVO9CNPWBE6SJU4DC"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=30',
+26 silly registry.get     'content-length': '92840',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '4204',
+26 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1404785714.741129,VS0,VE81',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'd3', range: '*', hasData: true }
+28 silly addNameRange versions [ 'd3',
+28 silly addNameRange   [ '1.29.5',
+28 silly addNameRange     '2.1.3',
+28 silly addNameRange     '2.2.1',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.2',
+28 silly addNameRange     '2.3.3',
+28 silly addNameRange     '2.3.4',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.6.0',
+28 silly addNameRange     '2.7.0',
+28 silly addNameRange     '2.7.2',
+28 silly addNameRange     '2.7.3',
+28 silly addNameRange     '2.7.4',
+28 silly addNameRange     '2.7.5',
+28 silly addNameRange     '2.8.0',
+28 silly addNameRange     '2.8.1',
+28 silly addNameRange     '2.9.0',
+28 silly addNameRange     '2.9.1',
+28 silly addNameRange     '2.9.2',
+28 silly addNameRange     '2.9.3',
+28 silly addNameRange     '2.9.4',
+28 silly addNameRange     '2.9.6',
+28 silly addNameRange     '2.9.7',
+28 silly addNameRange     '2.10.0',
+28 silly addNameRange     '2.10.1',
+28 silly addNameRange     '2.10.3',
+28 silly addNameRange     '3.0.0',
+28 silly addNameRange     '3.0.1',
+28 silly addNameRange     '3.0.2',
+28 silly addNameRange     '3.0.3',
+28 silly addNameRange     '3.0.4',
+28 silly addNameRange     '3.0.5',
+28 silly addNameRange     '3.0.6',
+28 silly addNameRange     '3.0.7',
+28 silly addNameRange     '3.0.8',
+28 silly addNameRange     '3.1.0',
+28 silly addNameRange     '3.1.1',
+28 silly addNameRange     '3.1.2',
+28 silly addNameRange     '3.1.3',
+28 silly addNameRange     '3.1.4',
+28 silly addNameRange     '3.1.5',
+28 silly addNameRange     '3.1.6',
+28 silly addNameRange     '3.1.7',
+28 silly addNameRange     '3.1.8',
+28 silly addNameRange     '3.1.9',
+28 silly addNameRange     '3.1.10',
+28 silly addNameRange     '3.2.0',
+28 silly addNameRange     '3.2.1',
+28 silly addNameRange     '3.2.2',
+28 silly addNameRange     '3.2.3',
+28 silly addNameRange     '3.2.4',
+28 silly addNameRange     '3.2.5',
+28 silly addNameRange     '3.2.6',
+28 silly addNameRange     '3.2.7',
+28 silly addNameRange     '3.2.8',
+28 silly addNameRange     '3.3.0',
+28 silly addNameRange     '3.3.1',
+28 silly addNameRange     '3.3.2',
+28 silly addNameRange     '3.3.3',
+28 silly addNameRange     '3.3.4',
+28 silly addNameRange     '3.3.5',
+28 silly addNameRange     '3.3.6',
+28 silly addNameRange     '3.3.7',
+28 silly addNameRange     '3.3.8',
+28 silly addNameRange     '3.3.9',
+28 silly addNameRange     '3.3.10',
+28 silly addNameRange     '3.3.11',
+28 silly addNameRange     '3.3.12',
+28 silly addNameRange     '3.3.13',
+28 silly addNameRange     '3.4.0',
+28 silly addNameRange     '3.4.1',
+28 silly addNameRange     '3.4.2',
+28 silly addNameRange     '3.4.3',
+28 silly addNameRange     '3.4.4',
+28 silly addNameRange     '3.4.5',
+28 silly addNameRange     '3.4.6',
+28 silly addNameRange     '3.4.7',
+28 silly addNameRange     '3.4.8',
+28 silly addNameRange     '3.4.9' ] ]
+29 verbose addNamed [ 'd3', '3.4.9' ]
+30 verbose addNamed [ '3.4.9', '3.4.9' ]
+31 silly lockFile b63f786c-d3-3-4-9 d3@3.4.9
+32 verbose lock d3@3.4.9 /Users/caly/.npm/b63f786c-d3-3-4-9.lock
+33 silly lockFile 58751032-gistry-npmjs-org-d3-d3-3-4-9-tgz https://registry.npmjs.org/d3/-/d3-3.4.9.tgz
+34 verbose lock https://registry.npmjs.org/d3/-/d3-3.4.9.tgz /Users/caly/.npm/58751032-gistry-npmjs-org-d3-d3-3-4-9-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3/-/d3-3.4.9.tgz',
+35 verbose addRemoteTarball   '5b0d680ba2c794a83308618829f4db7678ea1534' ]
+36 info retry fetch attempt 1 at 19:15:15
+37 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/d3/-/d3-3.4.9.tgz
+38 http GET https://registry.npmjs.org/d3/-/d3-3.4.9.tgz
+39 http 200 https://registry.npmjs.org/d3/-/d3-3.4.9.tgz
+40 silly lockFile 58751032-gistry-npmjs-org-d3-d3-3-4-9-tgz https://registry.npmjs.org/d3/-/d3-3.4.9.tgz
+41 silly lockFile 58751032-gistry-npmjs-org-d3-d3-3-4-9-tgz https://registry.npmjs.org/d3/-/d3-3.4.9.tgz
+42 silly lockFile b63f786c-d3-3-4-9 d3@3.4.9
+43 silly lockFile b63f786c-d3-3-4-9 d3@3.4.9
+44 silly lockFile 97977b46-d3 d3@
+45 silly lockFile 97977b46-d3 d3@
+46 silly resolved [ { name: 'd3',
+46 silly resolved     version: '3.4.9',
+46 silly resolved     description: 'A small, free JavaScript library for manipulating documents based on data.',
+46 silly resolved     keywords: [ 'dom', 'w3c', 'visualization', 'svg', 'animation', 'canvas' ],
+46 silly resolved     homepage: 'http://d3js.org',
+46 silly resolved     author: { name: 'Mike Bostock', url: 'http://bost.ocks.org/mike' },
+46 silly resolved     contributors: [ [Object] ],
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/mbostock/d3.git' },
+46 silly resolved     main: 'index.js',
+46 silly resolved     browserify: 'd3.js',
+46 silly resolved     jspm:
+46 silly resolved      { main: 'd3',
+46 silly resolved        shim: [Object],
+46 silly resolved        files: [Object],
+46 silly resolved        buildConfig: [Object] },
+46 silly resolved     jam: { main: 'd3.js', shim: [Object] },
+46 silly resolved     spm: { main: 'd3.js' },
+46 silly resolved     dependencies: { jsdom: '0.5.7' },
+46 silly resolved     devDependencies:
+46 silly resolved      { smash: '~0.0.12',
+46 silly resolved        'uglify-js': '2.4.0',
+46 silly resolved        vows: '0.7.0',
+46 silly resolved        seedrandom: '2.3.1' },
+46 silly resolved     scripts: { test: 'vows; echo' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     bugs: { url: 'https://github.com/mbostock/d3/issues' },
+46 silly resolved     _id: 'd3@3.4.9',
+46 silly resolved     _shasum: '5b0d680ba2c794a83308618829f4db7678ea1534',
+46 silly resolved     _from: 'd3@',
+46 silly resolved     _npmVersion: '1.4.10',
+46 silly resolved     _npmUser: { name: 'mbostock', email: 'mbostock@gmail.com' },
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '5b0d680ba2c794a83308618829f4db7678ea1534',
+46 silly resolved        tarball: 'http://registry.npmjs.org/d3/-/d3-3.4.9.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/d3/-/d3-3.4.9.tgz' } ]
+47 info install d3@3.4.9 into /Users/caly/Project-Mapping
+48 info installOne d3@3.4.9
+49 info /Users/caly/Project-Mapping/node_modules/d3 unbuild
+50 verbose tar unpack /Users/caly/.npm/d3/3.4.9/package.tgz
+51 silly lockFile db0b72c1--Project-Mapping-node-modules-d3 tar:///Users/caly/Project-Mapping/node_modules/d3
+52 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3 /Users/caly/.npm/db0b72c1--Project-Mapping-node-modules-d3.lock
+53 silly lockFile b6b2078f-rs-caly-npm-d3-3-4-9-package-tgz tar:///Users/caly/.npm/d3/3.4.9/package.tgz
+54 verbose lock tar:///Users/caly/.npm/d3/3.4.9/package.tgz /Users/caly/.npm/b6b2078f-rs-caly-npm-d3-3-4-9-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry LICENSE
+60 silly gunzTarPerm extractEntry d3.js
+61 silly gunzTarPerm extractEntry d3.min.js
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry bin/bower
+64 silly gunzTarPerm extractEntry bin/component
+65 silly gunzTarPerm extractEntry bin/start
+66 silly gunzTarPerm extractEntry bin/uglify
+67 silly gunzTarPerm extractEntry bower.json
+68 silly gunzTarPerm extractEntry component.json
+69 silly gunzTarPerm extractEntry .spmignore
+70 silly gunzTarPerm extractEntry CONTRIBUTING.md
+71 silly gunzTarPerm extractEntry d3.zip
+72 silly gunzTarPerm extractEntry Makefile
+73 silly gunzTarPerm extractEntry src/d3.js
+74 silly gunzTarPerm extractEntry src/end.js
+75 silly gunzTarPerm extractEntry src/start.js
+76 silly gunzTarPerm extractEntry src/geom/clip-line.js
+77 silly gunzTarPerm extractEntry src/geom/delaunay.js
+78 silly gunzTarPerm extractEntry src/geom/geom.js
+79 silly gunzTarPerm extractEntry src/geom/hull.js
+80 silly gunzTarPerm extractEntry src/geom/index.js
+81 silly gunzTarPerm extractEntry src/geom/point.js
+82 silly gunzTarPerm extractEntry src/geom/polygon.js
+83 silly gunzTarPerm extractEntry src/geom/quadtree.js
+84 silly gunzTarPerm extractEntry src/geom/voronoi.js
+85 silly gunzTarPerm extractEntry src/geom/voronoi/beach.js
+86 silly gunzTarPerm extractEntry src/geom/voronoi/cell.js
+87 silly gunzTarPerm extractEntry src/geom/voronoi/circle.js
+88 silly gunzTarPerm extractEntry src/geom/voronoi/clip.js
+89 silly gunzTarPerm extractEntry src/geom/voronoi/edge.js
+90 silly gunzTarPerm extractEntry src/geom/voronoi/index.js
+91 silly gunzTarPerm extractEntry src/geom/voronoi/red-black.js
+92 silly gunzTarPerm extractEntry src/core/array.js
+93 silly gunzTarPerm extractEntry src/core/functor.js
+94 silly gunzTarPerm extractEntry src/core/identity.js
+95 silly gunzTarPerm extractEntry src/core/index.js
+96 silly gunzTarPerm extractEntry src/core/noop.js
+97 silly gunzTarPerm extractEntry src/core/document.js
+98 silly gunzTarPerm extractEntry src/core/rebind.js
+99 silly gunzTarPerm extractEntry src/core/source.js
+100 silly gunzTarPerm extractEntry src/core/subclass.js
+101 silly gunzTarPerm extractEntry src/core/target.js
+102 silly gunzTarPerm extractEntry src/core/true.js
+103 silly gunzTarPerm extractEntry src/core/class.js
+104 silly gunzTarPerm extractEntry src/core/vendor.js
+105 silly gunzTarPerm extractEntry src/core/ns.js
+106 silly gunzTarPerm extractEntry src/arrays/ascending.js
+107 silly gunzTarPerm extractEntry src/arrays/max.js
+108 silly gunzTarPerm extractEntry src/arrays/mean.js
+109 silly gunzTarPerm extractEntry src/arrays/median.js
+110 silly gunzTarPerm extractEntry src/arrays/merge.js
+111 silly gunzTarPerm extractEntry src/arrays/map.js
+112 silly gunzTarPerm extractEntry src/arrays/nest.js
+113 silly gunzTarPerm extractEntry src/arrays/pairs.js
+114 silly gunzTarPerm extractEntry src/arrays/permute.js
+115 silly gunzTarPerm extractEntry src/arrays/quantile.js
+116 silly gunzTarPerm extractEntry src/arrays/range.js
+117 silly gunzTarPerm extractEntry src/arrays/keys.js
+118 silly gunzTarPerm extractEntry src/arrays/set.js
+119 silly gunzTarPerm extractEntry src/arrays/index.js
+120 silly gunzTarPerm extractEntry src/arrays/shuffle.js
+121 silly gunzTarPerm extractEntry src/arrays/extent.js
+122 silly gunzTarPerm extractEntry src/arrays/sum.js
+123 silly gunzTarPerm extractEntry src/arrays/entries.js
+124 silly gunzTarPerm extractEntry src/arrays/transpose.js
+125 silly gunzTarPerm extractEntry src/arrays/descending.js
+126 silly gunzTarPerm extractEntry src/arrays/values.js
+127 silly gunzTarPerm extractEntry src/arrays/bisect.js
+128 silly gunzTarPerm extractEntry src/arrays/zip.js
+129 silly gunzTarPerm extractEntry src/arrays/min.js
+130 silly gunzTarPerm extractEntry src/dsv/csv.js
+131 silly gunzTarPerm extractEntry src/dsv/dsv.js
+132 silly gunzTarPerm extractEntry src/dsv/index.js
+133 silly gunzTarPerm extractEntry src/dsv/tsv.js
+134 silly gunzTarPerm extractEntry src/color/color.js
+135 silly gunzTarPerm extractEntry src/color/hcl.js
+136 silly gunzTarPerm extractEntry src/color/hsl.js
+137 silly gunzTarPerm extractEntry src/color/index.js
+138 silly gunzTarPerm extractEntry src/color/lab.js
+139 silly gunzTarPerm extractEntry src/color/rgb.js
+140 silly gunzTarPerm extractEntry src/color/xyz.js
+141 silly gunzTarPerm extractEntry src/event/dispatch.js
+142 silly gunzTarPerm extractEntry src/event/drag.js
+143 silly gunzTarPerm extractEntry src/event/event.js
+144 silly gunzTarPerm extractEntry src/event/index.js
+145 silly gunzTarPerm extractEntry src/event/mouse.js
+146 silly gunzTarPerm extractEntry src/event/timer.js
+147 silly gunzTarPerm extractEntry src/event/touch.js
+148 silly gunzTarPerm extractEntry src/event/touches.js
+149 silly gunzTarPerm extractEntry src/format/collapse.js
+150 silly gunzTarPerm extractEntry src/format/format.js
+151 silly gunzTarPerm extractEntry src/format/formatPrefix.js
+152 silly gunzTarPerm extractEntry src/format/index.js
+153 silly gunzTarPerm extractEntry src/format/precision.js
+154 silly gunzTarPerm extractEntry src/format/requote.js
+155 silly gunzTarPerm extractEntry src/format/round.js
+156 silly gunzTarPerm extractEntry src/geo/albers-usa.js
+157 silly gunzTarPerm extractEntry src/geo/conic.js
+158 silly gunzTarPerm extractEntry src/geo/distance.js
+159 silly gunzTarPerm extractEntry src/geo/equirectangular.js
+160 silly gunzTarPerm extractEntry src/geo/geo.js
+161 silly gunzTarPerm extractEntry src/geo/conic-equidistant.js
+162 silly gunzTarPerm extractEntry src/geo/graticule.js
+163 silly gunzTarPerm extractEntry src/geo/greatArc.js
+164 silly gunzTarPerm extractEntry src/geo/index.js
+165 silly gunzTarPerm extractEntry src/geo/interpolate.js
+166 silly gunzTarPerm extractEntry src/geo/length.js
+167 silly gunzTarPerm extractEntry src/geo/conic-equal-area.js
+168 silly gunzTarPerm extractEntry src/geo/mercator.js
+169 silly gunzTarPerm extractEntry src/geo/conic-conformal.js
+170 silly gunzTarPerm extractEntry src/geo/orthographic.js
+171 silly gunzTarPerm extractEntry src/geo/compose.js
+172 silly gunzTarPerm extractEntry src/geo/path-area.js
+173 silly gunzTarPerm extractEntry src/geo/clip.js
+174 silly gunzTarPerm extractEntry src/geo/path-bounds.js
+175 silly gunzTarPerm extractEntry src/geo/clip-polygon.js
+176 silly gunzTarPerm extractEntry src/geo/path-buffer.js
+177 silly gunzTarPerm extractEntry src/geo/clip-extent.js
+178 silly gunzTarPerm extractEntry src/geo/path-centroid.js
+179 silly gunzTarPerm extractEntry src/geo/clip-circle.js
+180 silly gunzTarPerm extractEntry src/geo/path-context.js
+181 silly gunzTarPerm extractEntry src/geo/clip-antimeridian.js
+182 silly gunzTarPerm extractEntry src/geo/path.js
+183 silly gunzTarPerm extractEntry src/geo/circle.js
+184 silly gunzTarPerm extractEntry src/geo/point-in-polygon.js
+185 silly gunzTarPerm extractEntry src/geo/centroid.js
+186 silly gunzTarPerm extractEntry src/geo/projection.js
+187 silly gunzTarPerm extractEntry src/geo/cartesian.js
+188 silly gunzTarPerm extractEntry src/geo/resample.js
+189 silly gunzTarPerm extractEntry src/geo/bounds.js
+190 silly gunzTarPerm extractEntry src/geo/rotation.js
+191 silly gunzTarPerm extractEntry src/geo/azimuthal.js
+192 silly gunzTarPerm extractEntry src/geo/spherical.js
+193 silly gunzTarPerm extractEntry src/geo/azimuthal-equidistant.js
+194 silly gunzTarPerm extractEntry src/geo/stereographic.js
+195 silly gunzTarPerm extractEntry src/geo/azimuthal-equal-area.js
+196 silly gunzTarPerm extractEntry src/geo/stream.js
+197 silly gunzTarPerm extractEntry src/geo/area.js
+198 silly gunzTarPerm extractEntry src/geo/transform.js
+199 silly gunzTarPerm extractEntry src/geo/albers.js
+200 silly gunzTarPerm extractEntry src/geo/transverse-mercator.js
+201 silly gunzTarPerm extractEntry src/geo/gnomonic.js
+202 silly gunzTarPerm extractEntry src/behavior/behavior.js
+203 silly gunzTarPerm extractEntry src/behavior/drag.js
+204 silly gunzTarPerm extractEntry src/behavior/index.js
+205 silly gunzTarPerm extractEntry src/behavior/zoom.js
+206 silly gunzTarPerm extractEntry src/interpolate/array.js
+207 silly gunzTarPerm extractEntry src/interpolate/index.js
+208 silly gunzTarPerm extractEntry src/interpolate/interpolate.js
+209 silly gunzTarPerm extractEntry src/interpolate/lab.js
+210 silly gunzTarPerm extractEntry src/interpolate/hsl.js
+211 silly gunzTarPerm extractEntry src/interpolate/object.js
+212 silly gunzTarPerm extractEntry src/interpolate/rgb.js
+213 silly gunzTarPerm extractEntry src/interpolate/round.js
+214 silly gunzTarPerm extractEntry src/interpolate/string.js
+215 silly gunzTarPerm extractEntry src/interpolate/transform.js
+216 silly gunzTarPerm extractEntry src/interpolate/hcl.js
+217 silly gunzTarPerm extractEntry src/interpolate/uninterpolate.js
+218 silly gunzTarPerm extractEntry src/interpolate/ease.js
+219 silly gunzTarPerm extractEntry src/interpolate/zoom.js
+220 silly gunzTarPerm extractEntry src/interpolate/number.js
+221 silly gunzTarPerm extractEntry src/layout/bundle.js
+222 silly gunzTarPerm extractEntry src/layout/force.js
+223 silly gunzTarPerm extractEntry src/layout/hierarchy.js
+224 silly gunzTarPerm extractEntry src/layout/histogram.js
+225 silly gunzTarPerm extractEntry src/layout/index.js
+226 silly gunzTarPerm extractEntry src/layout/cluster.js
+227 silly gunzTarPerm extractEntry src/layout/pack.js
+228 silly gunzTarPerm extractEntry src/layout/partition.js
+229 silly gunzTarPerm extractEntry src/layout/pie.js
+230 silly gunzTarPerm extractEntry src/layout/stack.js
+231 silly gunzTarPerm extractEntry src/layout/tree.js
+232 silly gunzTarPerm extractEntry src/layout/chord.js
+233 silly gunzTarPerm extractEntry src/layout/treemap.js
+234 silly gunzTarPerm extractEntry src/layout/layout.js
+235 silly gunzTarPerm extractEntry src/locale/ca-ES.js
+236 silly gunzTarPerm extractEntry src/locale/en-US.js
+237 silly gunzTarPerm extractEntry src/locale/fi-FI.js
+238 silly gunzTarPerm extractEntry src/locale/locale.js
+239 silly gunzTarPerm extractEntry src/locale/en-GB.js
+240 silly gunzTarPerm extractEntry src/locale/pt-BR.js
+241 silly gunzTarPerm extractEntry src/locale/ru-RU.js
+242 silly gunzTarPerm extractEntry src/locale/time-format.js
+243 silly gunzTarPerm extractEntry src/locale/time-scale.js
+244 silly gunzTarPerm extractEntry src/locale/zh-CN.js
+245 silly gunzTarPerm extractEntry src/locale/number-format.js
+246 silly gunzTarPerm extractEntry src/math/abs.js
+247 silly gunzTarPerm extractEntry src/math/adder.js
+248 silly gunzTarPerm extractEntry src/math/index.js
+249 silly gunzTarPerm extractEntry src/math/number.js
+250 silly gunzTarPerm extractEntry src/math/random.js
+251 silly gunzTarPerm extractEntry src/math/transform.js
+252 silly gunzTarPerm extractEntry src/math/trigonometry.js
+253 silly gunzTarPerm extractEntry src/scale/bilinear.js
+254 silly gunzTarPerm extractEntry src/scale/linear.js
+255 silly gunzTarPerm extractEntry src/scale/log.js
+256 silly gunzTarPerm extractEntry src/scale/nice.js
+257 silly gunzTarPerm extractEntry src/scale/index.js
+258 silly gunzTarPerm extractEntry src/scale/polylinear.js
+259 silly gunzTarPerm extractEntry src/scale/pow.js
+260 silly gunzTarPerm extractEntry src/scale/quantile.js
+261 silly gunzTarPerm extractEntry src/scale/quantize.js
+262 silly gunzTarPerm extractEntry src/scale/scale.js
+263 silly gunzTarPerm extractEntry src/scale/identity.js
+264 silly gunzTarPerm extractEntry src/scale/sqrt.js
+265 silly gunzTarPerm extractEntry src/scale/category.js
+266 silly gunzTarPerm extractEntry src/scale/threshold.js
+267 silly gunzTarPerm extractEntry src/scale/ordinal.js
+268 silly gunzTarPerm extractEntry src/selection/append.js
+269 silly gunzTarPerm extractEntry src/selection/filter.js
+270 silly gunzTarPerm extractEntry src/selection/html.js
+271 silly gunzTarPerm extractEntry src/selection/index.js
+272 silly gunzTarPerm extractEntry src/selection/enter.js
+273 silly gunzTarPerm extractEntry src/selection/interrupt.js
+274 silly gunzTarPerm extractEntry src/selection/node.js
+275 silly gunzTarPerm extractEntry src/selection/on.js
+276 silly gunzTarPerm extractEntry src/selection/order.js
+277 silly gunzTarPerm extractEntry src/selection/property.js
+278 silly gunzTarPerm extractEntry src/selection/enter-select.js
+279 silly gunzTarPerm extractEntry src/selection/remove.js
+280 silly gunzTarPerm extractEntry src/selection/enter-insert.js
+281 silly gunzTarPerm extractEntry src/selection/select.js
+282 silly gunzTarPerm extractEntry src/selection/empty.js
+283 silly gunzTarPerm extractEntry src/selection/selectAll.js
+284 silly gunzTarPerm extractEntry src/selection/each.js
+285 silly gunzTarPerm extractEntry src/selection/selection.js
+286 silly gunzTarPerm extractEntry src/selection/datum.js
+287 silly gunzTarPerm extractEntry src/selection/size.js
+288 silly gunzTarPerm extractEntry src/selection/data.js
+289 silly gunzTarPerm extractEntry src/selection/sort.js
+290 silly gunzTarPerm extractEntry src/selection/classed.js
+291 silly gunzTarPerm extractEntry src/selection/style.js
+292 silly gunzTarPerm extractEntry src/selection/call.js
+293 silly gunzTarPerm extractEntry src/selection/text.js
+294 silly gunzTarPerm extractEntry src/selection/attr.js
+295 silly gunzTarPerm extractEntry src/selection/transition.js
+296 silly gunzTarPerm extractEntry src/selection/insert.js
+297 silly gunzTarPerm extractEntry src/compat/date.js
+298 silly gunzTarPerm extractEntry src/compat/index.js
+299 silly gunzTarPerm extractEntry src/compat/style.js
+300 silly gunzTarPerm extractEntry src/svg/arc.js
+301 silly gunzTarPerm extractEntry src/svg/axis.js
+302 silly gunzTarPerm extractEntry src/svg/brush.js
+303 silly gunzTarPerm extractEntry src/svg/chord.js
+304 silly gunzTarPerm extractEntry src/svg/area.js
+305 silly gunzTarPerm extractEntry src/svg/diagonal.js
+306 silly gunzTarPerm extractEntry src/svg/index.js
+307 silly gunzTarPerm extractEntry src/svg/line-radial.js
+308 silly gunzTarPerm extractEntry src/svg/line.js
+309 silly gunzTarPerm extractEntry src/svg/svg.js
+310 silly gunzTarPerm extractEntry src/svg/area-radial.js
+311 silly gunzTarPerm extractEntry src/svg/symbol.js
+312 silly gunzTarPerm extractEntry src/svg/diagonal-radial.js
+313 silly gunzTarPerm extractEntry src/time/day.js
+314 silly gunzTarPerm extractEntry src/time/hour.js
+315 silly gunzTarPerm extractEntry src/time/index.js
+316 silly gunzTarPerm extractEntry src/time/interval.js
+317 silly gunzTarPerm extractEntry src/time/format.js
+318 silly gunzTarPerm extractEntry src/time/month.js
+319 silly gunzTarPerm extractEntry src/time/scale-utc.js
+320 silly gunzTarPerm extractEntry src/time/scale.js
+321 silly gunzTarPerm extractEntry src/time/second.js
+322 silly gunzTarPerm extractEntry src/time/time.js
+323 silly gunzTarPerm extractEntry src/time/format-utc.js
+324 silly gunzTarPerm extractEntry src/time/week.js
+325 silly gunzTarPerm extractEntry src/time/format-iso.js
+326 silly gunzTarPerm extractEntry src/time/year.js
+327 silly gunzTarPerm extractEntry src/time/minute.js
+328 silly gunzTarPerm extractEntry src/transition/attr.js
+329 silly gunzTarPerm extractEntry src/transition/ease.js
+330 silly gunzTarPerm extractEntry src/transition/filter.js
+331 silly gunzTarPerm extractEntry src/transition/index.js
+332 silly gunzTarPerm extractEntry src/transition/each.js
+333 silly gunzTarPerm extractEntry src/transition/select.js
+334 silly gunzTarPerm extractEntry src/transition/selectAll.js
+335 silly gunzTarPerm extractEntry src/transition/style.js
+336 silly gunzTarPerm extractEntry src/transition/subtransition.js
+337 silly gunzTarPerm extractEntry src/transition/text.js
+338 silly gunzTarPerm extractEntry src/transition/duration.js
+339 silly gunzTarPerm extractEntry src/transition/transition.js
+340 silly gunzTarPerm extractEntry src/transition/delay.js
+341 silly gunzTarPerm extractEntry src/transition/tween.js
+342 silly gunzTarPerm extractEntry src/transition/remove.js
+343 silly gunzTarPerm extractEntry src/xhr/html.js
+344 silly gunzTarPerm extractEntry src/xhr/index.js
+345 silly gunzTarPerm extractEntry src/xhr/json.js
+346 silly gunzTarPerm extractEntry src/xhr/text.js
+347 silly gunzTarPerm extractEntry src/xhr/xhr.js
+348 silly gunzTarPerm extractEntry src/xhr/xml.js
+349 silly gunzTarPerm extractEntry .travis.yml
+350 silly gunzTarPerm extractEntry composer.json
+351 silly lockFile db0b72c1--Project-Mapping-node-modules-d3 tar:///Users/caly/Project-Mapping/node_modules/d3
+352 silly lockFile db0b72c1--Project-Mapping-node-modules-d3 tar:///Users/caly/Project-Mapping/node_modules/d3
+353 silly lockFile b6b2078f-rs-caly-npm-d3-3-4-9-package-tgz tar:///Users/caly/.npm/d3/3.4.9/package.tgz
+354 silly lockFile b6b2078f-rs-caly-npm-d3-3-4-9-package-tgz tar:///Users/caly/.npm/d3/3.4.9/package.tgz
+355 info preinstall d3@3.4.9
+356 verbose readDependencies using package.json deps
+357 verbose readDependencies using package.json deps
+358 verbose cache add [ 'jsdom@0.5.7', null ]
+359 verbose cache add name=undefined spec="jsdom@0.5.7" args=["jsdom@0.5.7",null]
+360 verbose parsed url { protocol: null,
+360 verbose parsed url   slashes: null,
+360 verbose parsed url   auth: null,
+360 verbose parsed url   host: null,
+360 verbose parsed url   port: null,
+360 verbose parsed url   hostname: null,
+360 verbose parsed url   hash: null,
+360 verbose parsed url   search: null,
+360 verbose parsed url   query: null,
+360 verbose parsed url   pathname: 'jsdom@0.5.7',
+360 verbose parsed url   path: 'jsdom@0.5.7',
+360 verbose parsed url   href: 'jsdom@0.5.7' }
+361 verbose cache add name="jsdom" spec="0.5.7" args=["jsdom","0.5.7"]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: '0.5.7',
+362 verbose parsed url   path: '0.5.7',
+362 verbose parsed url   href: '0.5.7' }
+363 verbose addNamed [ 'jsdom', '0.5.7' ]
+364 verbose addNamed [ '0.5.7', '0.5.7' ]
+365 silly lockFile 128cd670-jsdom-0-5-7 jsdom@0.5.7
+366 verbose lock jsdom@0.5.7 /Users/caly/.npm/128cd670-jsdom-0-5-7.lock
+367 verbose url raw jsdom
+368 verbose url resolving [ 'https://registry.npmjs.org/', './jsdom' ]
+369 verbose url resolved https://registry.npmjs.org/jsdom
+370 info trying registry request attempt 1 at 19:15:17
+371 http GET https://registry.npmjs.org/jsdom
+372 http 200 https://registry.npmjs.org/jsdom
+373 silly registry.get cb [ 200,
+373 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:16 GMT',
+373 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+373 silly registry.get     etag: '"A7QDUA4C37BAPIOWGLJ62V3Z"',
+373 silly registry.get     'content-type': 'application/json',
+373 silly registry.get     'cache-control': 'max-age=30',
+373 silly registry.get     'content-length': '254558',
+373 silly registry.get     'accept-ranges': 'bytes',
+373 silly registry.get     via: '1.1 varnish',
+373 silly registry.get     age: '273',
+373 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+373 silly registry.get     'x-cache': 'HIT',
+373 silly registry.get     'x-cache-hits': '1',
+373 silly registry.get     'x-timer': 'S1404785716.787470,VS0,VE30',
+373 silly registry.get     vary: 'Accept',
+373 silly registry.get     'keep-alive': 'timeout=10, max=50',
+373 silly registry.get     connection: 'Keep-Alive' } ]
+374 silly lockFile 75812188--npmjs-org-jsdom-jsdom-0-5-7-tgz https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+375 verbose lock https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz /Users/caly/.npm/75812188--npmjs-org-jsdom-jsdom-0-5-7-tgz.lock
+376 verbose addRemoteTarball [ 'https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz',
+376 verbose addRemoteTarball   '0e1e766d8f72eb4e1306aee7bc782f4032bca682' ]
+377 info retry fetch attempt 1 at 19:15:17
+378 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+379 http GET https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+380 http 200 https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+381 silly lockFile 75812188--npmjs-org-jsdom-jsdom-0-5-7-tgz https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+382 silly lockFile 75812188--npmjs-org-jsdom-jsdom-0-5-7-tgz https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz
+383 silly lockFile 128cd670-jsdom-0-5-7 jsdom@0.5.7
+384 silly lockFile 128cd670-jsdom-0-5-7 jsdom@0.5.7
+385 silly resolved [ { name: 'jsdom',
+385 silly resolved     version: '0.5.7',
+385 silly resolved     description: 'A JavaScript implementation of the W3C DOM',
+385 silly resolved     keywords: [ 'dom', 'w3c', 'html' ],
+385 silly resolved     maintainers: [ [Object], [Object] ],
+385 silly resolved     contributors:
+385 silly resolved      [ [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object],
+385 silly resolved        [Object] ],
+385 silly resolved     bugs:
+385 silly resolved      { email: 'tmpvar@gmail.com',
+385 silly resolved        url: 'http://github.com/tmpvar/jsdom/issues' },
+385 silly resolved     licenses: [ [Object] ],
+385 silly resolved     repositories: [ [Object] ],
+385 silly resolved     implements: [ 'http://www.w3.org/TR/REC-DOM-Level-1' ],
+385 silly resolved     dependencies:
+385 silly resolved      { htmlparser: '1.x',
+385 silly resolved        nwmatcher: '~1.3.1',
+385 silly resolved        request: '2.x',
+385 silly resolved        cssom: '~0.2.5',
+385 silly resolved        cssstyle: '~0.2.3',
+385 silly resolved        contextify: '~0.1.5' },
+385 silly resolved     devDependencies: { nodeunit: '~0.8.0', html5: '*', optimist: '*' },
+385 silly resolved     directories: { lib: './lib/jsdom' },
+385 silly resolved     scripts: { test: 'node ./test/runner' },
+385 silly resolved     main: './lib/jsdom',
+385 silly resolved     _id: 'jsdom@0.5.7',
+385 silly resolved     dist:
+385 silly resolved      { shasum: '0e1e766d8f72eb4e1306aee7bc782f4032bca682',
+385 silly resolved        tarball: 'http://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz' },
+385 silly resolved     _from: 'jsdom@0.5.7',
+385 silly resolved     _npmVersion: '1.2.15',
+385 silly resolved     _npmUser: { name: 'domenic', email: 'domenic@domenicdenicola.com' },
+385 silly resolved     _shasum: '0e1e766d8f72eb4e1306aee7bc782f4032bca682',
+385 silly resolved     _resolved: 'https://registry.npmjs.org/jsdom/-/jsdom-0.5.7.tgz' } ]
+386 info install jsdom@0.5.7 into /Users/caly/Project-Mapping/node_modules/d3
+387 info installOne jsdom@0.5.7
+388 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom unbuild
+389 verbose tar unpack /Users/caly/.npm/jsdom/0.5.7/package.tgz
+390 silly lockFile 5d9c9eef-de-modules-d3-node-modules-jsdom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+391 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom /Users/caly/.npm/5d9c9eef-de-modules-d3-node-modules-jsdom.lock
+392 silly lockFile 284aa963-caly-npm-jsdom-0-5-7-package-tgz tar:///Users/caly/.npm/jsdom/0.5.7/package.tgz
+393 verbose lock tar:///Users/caly/.npm/jsdom/0.5.7/package.tgz /Users/caly/.npm/284aa963-caly-npm-jsdom-0-5-7-package-tgz.lock
+394 silly gunzTarPerm modes [ '755', '644' ]
+395 silly gunzTarPerm extractEntry package.json
+396 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+397 silly gunzTarPerm extractEntry README.md
+398 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+399 silly gunzTarPerm extractEntry lib/jsdom.js
+400 silly gunzTarPerm modified mode [ 'lib/jsdom.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry lib/jsdom/utils.js
+402 silly gunzTarPerm modified mode [ 'lib/jsdom/utils.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry lib/jsdom/browser/documentfeatures.js
+404 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/documentfeatures.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry lib/jsdom/browser/domtohtml.js
+406 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/domtohtml.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry lib/jsdom/browser/htmlencoding.js
+408 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/htmlencoding.js', 438, 420 ]
+409 silly gunzTarPerm extractEntry lib/jsdom/browser/htmltodom.js
+410 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/htmltodom.js', 438, 420 ]
+411 silly gunzTarPerm extractEntry lib/jsdom/browser/index.js
+412 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/index.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry lib/jsdom/level1/core.js
+414 silly gunzTarPerm modified mode [ 'lib/jsdom/level1/core.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry lib/jsdom/level2/core.js
+416 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/core.js', 438, 420 ]
+417 silly gunzTarPerm extractEntry lib/jsdom/level2/events.js
+418 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/events.js', 438, 420 ]
+419 silly gunzTarPerm extractEntry lib/jsdom/level2/html.js
+420 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/html.js', 438, 420 ]
+421 silly gunzTarPerm extractEntry lib/jsdom/level2/index.js
+422 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/index.js', 438, 420 ]
+423 silly gunzTarPerm extractEntry lib/jsdom/level2/style.js
+424 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/style.js', 438, 420 ]
+425 silly gunzTarPerm extractEntry lib/jsdom/level2/languages/javascript.js
+426 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/languages/javascript.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry lib/jsdom/level3/core.js
+428 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/core.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry lib/jsdom/level3/events.js
+430 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/events.js', 438, 420 ]
+431 silly gunzTarPerm extractEntry lib/jsdom/level3/html.js
+432 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/html.js', 438, 420 ]
+433 silly gunzTarPerm extractEntry lib/jsdom/level3/index.js
+434 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/index.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry lib/jsdom/level3/ls.js
+436 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/ls.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry lib/jsdom/level3/xpath.js
+438 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/xpath.js', 438, 420 ]
+439 silly gunzTarPerm extractEntry lib/jsdom/selectors/index.js
+440 silly gunzTarPerm modified mode [ 'lib/jsdom/selectors/index.js', 438, 420 ]
+441 silly gunzTarPerm extractEntry LICENSE.txt
+442 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+443 silly lockFile 5d9c9eef-de-modules-d3-node-modules-jsdom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+444 silly lockFile 5d9c9eef-de-modules-d3-node-modules-jsdom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+445 silly lockFile 284aa963-caly-npm-jsdom-0-5-7-package-tgz tar:///Users/caly/.npm/jsdom/0.5.7/package.tgz
+446 silly lockFile 284aa963-caly-npm-jsdom-0-5-7-package-tgz tar:///Users/caly/.npm/jsdom/0.5.7/package.tgz
+447 info preinstall jsdom@0.5.7
+448 verbose readDependencies using package.json deps
+449 verbose readDependencies using package.json deps
+450 verbose cache add [ 'htmlparser@1.x', null ]
+451 verbose cache add name=undefined spec="htmlparser@1.x" args=["htmlparser@1.x",null]
+452 verbose parsed url { protocol: null,
+452 verbose parsed url   slashes: null,
+452 verbose parsed url   auth: null,
+452 verbose parsed url   host: null,
+452 verbose parsed url   port: null,
+452 verbose parsed url   hostname: null,
+452 verbose parsed url   hash: null,
+452 verbose parsed url   search: null,
+452 verbose parsed url   query: null,
+452 verbose parsed url   pathname: 'htmlparser@1.x',
+452 verbose parsed url   path: 'htmlparser@1.x',
+452 verbose parsed url   href: 'htmlparser@1.x' }
+453 verbose cache add [ 'nwmatcher@~1.3.1', null ]
+454 verbose cache add name=undefined spec="nwmatcher@~1.3.1" args=["nwmatcher@~1.3.1",null]
+455 verbose parsed url { protocol: null,
+455 verbose parsed url   slashes: null,
+455 verbose parsed url   auth: null,
+455 verbose parsed url   host: null,
+455 verbose parsed url   port: null,
+455 verbose parsed url   hostname: null,
+455 verbose parsed url   hash: null,
+455 verbose parsed url   search: null,
+455 verbose parsed url   query: null,
+455 verbose parsed url   pathname: 'nwmatcher@~1.3.1',
+455 verbose parsed url   path: 'nwmatcher@~1.3.1',
+455 verbose parsed url   href: 'nwmatcher@~1.3.1' }
+456 verbose cache add [ 'request@2.x', null ]
+457 verbose cache add name=undefined spec="request@2.x" args=["request@2.x",null]
+458 verbose parsed url { protocol: null,
+458 verbose parsed url   slashes: null,
+458 verbose parsed url   auth: null,
+458 verbose parsed url   host: null,
+458 verbose parsed url   port: null,
+458 verbose parsed url   hostname: null,
+458 verbose parsed url   hash: null,
+458 verbose parsed url   search: null,
+458 verbose parsed url   query: null,
+458 verbose parsed url   pathname: 'request@2.x',
+458 verbose parsed url   path: 'request@2.x',
+458 verbose parsed url   href: 'request@2.x' }
+459 verbose cache add name="htmlparser" spec="1.x" args=["htmlparser","1.x"]
+460 verbose parsed url { protocol: null,
+460 verbose parsed url   slashes: null,
+460 verbose parsed url   auth: null,
+460 verbose parsed url   host: null,
+460 verbose parsed url   port: null,
+460 verbose parsed url   hostname: null,
+460 verbose parsed url   hash: null,
+460 verbose parsed url   search: null,
+460 verbose parsed url   query: null,
+460 verbose parsed url   pathname: '1.x',
+460 verbose parsed url   path: '1.x',
+460 verbose parsed url   href: '1.x' }
+461 verbose addNamed [ 'htmlparser', '1.x' ]
+462 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+463 silly lockFile 4d163ec2-htmlparser-1-x htmlparser@1.x
+464 verbose lock htmlparser@1.x /Users/caly/.npm/4d163ec2-htmlparser-1-x.lock
+465 verbose cache add [ 'cssom@~0.2.5', null ]
+466 verbose cache add name=undefined spec="cssom@~0.2.5" args=["cssom@~0.2.5",null]
+467 verbose parsed url { protocol: null,
+467 verbose parsed url   slashes: null,
+467 verbose parsed url   auth: null,
+467 verbose parsed url   host: null,
+467 verbose parsed url   port: null,
+467 verbose parsed url   hostname: null,
+467 verbose parsed url   hash: null,
+467 verbose parsed url   search: null,
+467 verbose parsed url   query: null,
+467 verbose parsed url   pathname: 'cssom@~0.2.5',
+467 verbose parsed url   path: 'cssom@~0.2.5',
+467 verbose parsed url   href: 'cssom@~0.2.5' }
+468 verbose cache add [ 'cssstyle@~0.2.3', null ]
+469 verbose cache add name=undefined spec="cssstyle@~0.2.3" args=["cssstyle@~0.2.3",null]
+470 verbose parsed url { protocol: null,
+470 verbose parsed url   slashes: null,
+470 verbose parsed url   auth: null,
+470 verbose parsed url   host: null,
+470 verbose parsed url   port: null,
+470 verbose parsed url   hostname: null,
+470 verbose parsed url   hash: null,
+470 verbose parsed url   search: null,
+470 verbose parsed url   query: null,
+470 verbose parsed url   pathname: 'cssstyle@~0.2.3',
+470 verbose parsed url   path: 'cssstyle@~0.2.3',
+470 verbose parsed url   href: 'cssstyle@~0.2.3' }
+471 verbose cache add [ 'contextify@~0.1.5', null ]
+472 verbose cache add name=undefined spec="contextify@~0.1.5" args=["contextify@~0.1.5",null]
+473 verbose parsed url { protocol: null,
+473 verbose parsed url   slashes: null,
+473 verbose parsed url   auth: null,
+473 verbose parsed url   host: null,
+473 verbose parsed url   port: null,
+473 verbose parsed url   hostname: null,
+473 verbose parsed url   hash: null,
+473 verbose parsed url   search: null,
+473 verbose parsed url   query: null,
+473 verbose parsed url   pathname: 'contextify@~0.1.5',
+473 verbose parsed url   path: 'contextify@~0.1.5',
+473 verbose parsed url   href: 'contextify@~0.1.5' }
+474 verbose cache add name="nwmatcher" spec="~1.3.1" args=["nwmatcher","~1.3.1"]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: '~1.3.1',
+475 verbose parsed url   path: '~1.3.1',
+475 verbose parsed url   href: '~1.3.1' }
+476 verbose addNamed [ 'nwmatcher', '~1.3.1' ]
+477 verbose addNamed [ null, '>=1.3.1-0 <1.4.0-0' ]
+478 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+479 verbose lock nwmatcher@~1.3.1 /Users/caly/.npm/315a8aad-nwmatcher-1-3-1.lock
+480 verbose cache add name="request" spec="2.x" args=["request","2.x"]
+481 verbose parsed url { protocol: null,
+481 verbose parsed url   slashes: null,
+481 verbose parsed url   auth: null,
+481 verbose parsed url   host: null,
+481 verbose parsed url   port: null,
+481 verbose parsed url   hostname: null,
+481 verbose parsed url   hash: null,
+481 verbose parsed url   search: null,
+481 verbose parsed url   query: null,
+481 verbose parsed url   pathname: '2.x',
+481 verbose parsed url   path: '2.x',
+481 verbose parsed url   href: '2.x' }
+482 verbose addNamed [ 'request', '2.x' ]
+483 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+484 silly lockFile c23ecae0-request-2-x request@2.x
+485 verbose lock request@2.x /Users/caly/.npm/c23ecae0-request-2-x.lock
+486 verbose cache add name="cssom" spec="~0.2.5" args=["cssom","~0.2.5"]
+487 verbose parsed url { protocol: null,
+487 verbose parsed url   slashes: null,
+487 verbose parsed url   auth: null,
+487 verbose parsed url   host: null,
+487 verbose parsed url   port: null,
+487 verbose parsed url   hostname: null,
+487 verbose parsed url   hash: null,
+487 verbose parsed url   search: null,
+487 verbose parsed url   query: null,
+487 verbose parsed url   pathname: '~0.2.5',
+487 verbose parsed url   path: '~0.2.5',
+487 verbose parsed url   href: '~0.2.5' }
+488 verbose addNamed [ 'cssom', '~0.2.5' ]
+489 verbose addNamed [ null, '>=0.2.5-0 <0.3.0-0' ]
+490 silly lockFile ff3f1f9f-cssom-0-2-5 cssom@~0.2.5
+491 verbose lock cssom@~0.2.5 /Users/caly/.npm/ff3f1f9f-cssom-0-2-5.lock
+492 verbose cache add name="cssstyle" spec="~0.2.3" args=["cssstyle","~0.2.3"]
+493 verbose parsed url { protocol: null,
+493 verbose parsed url   slashes: null,
+493 verbose parsed url   auth: null,
+493 verbose parsed url   host: null,
+493 verbose parsed url   port: null,
+493 verbose parsed url   hostname: null,
+493 verbose parsed url   hash: null,
+493 verbose parsed url   search: null,
+493 verbose parsed url   query: null,
+493 verbose parsed url   pathname: '~0.2.3',
+493 verbose parsed url   path: '~0.2.3',
+493 verbose parsed url   href: '~0.2.3' }
+494 verbose addNamed [ 'cssstyle', '~0.2.3' ]
+495 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+496 silly lockFile 4c95b135-cssstyle-0-2-3 cssstyle@~0.2.3
+497 verbose lock cssstyle@~0.2.3 /Users/caly/.npm/4c95b135-cssstyle-0-2-3.lock
+498 verbose cache add name="contextify" spec="~0.1.5" args=["contextify","~0.1.5"]
+499 verbose parsed url { protocol: null,
+499 verbose parsed url   slashes: null,
+499 verbose parsed url   auth: null,
+499 verbose parsed url   host: null,
+499 verbose parsed url   port: null,
+499 verbose parsed url   hostname: null,
+499 verbose parsed url   hash: null,
+499 verbose parsed url   search: null,
+499 verbose parsed url   query: null,
+499 verbose parsed url   pathname: '~0.1.5',
+499 verbose parsed url   path: '~0.1.5',
+499 verbose parsed url   href: '~0.1.5' }
+500 verbose addNamed [ 'contextify', '~0.1.5' ]
+501 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+502 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+503 verbose lock contextify@~0.1.5 /Users/caly/.npm/39127fdc-contextify-0-1-5.lock
+504 silly addNameRange { name: 'htmlparser',
+504 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+504 silly addNameRange   hasData: false }
+505 silly addNameRange { name: 'nwmatcher',
+505 silly addNameRange   range: '>=1.3.1-0 <1.4.0-0',
+505 silly addNameRange   hasData: false }
+506 silly addNameRange { name: 'request', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+507 verbose url raw htmlparser
+508 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser' ]
+509 verbose url resolved https://registry.npmjs.org/htmlparser
+510 info trying registry request attempt 1 at 19:15:17
+511 http GET https://registry.npmjs.org/htmlparser
+512 silly addNameRange { name: 'cssom', range: '>=0.2.5-0 <0.3.0-0', hasData: false }
+513 silly addNameRange { name: 'cssstyle', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+514 silly addNameRange { name: 'contextify',
+514 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+514 silly addNameRange   hasData: false }
+515 verbose url raw nwmatcher
+516 verbose url resolving [ 'https://registry.npmjs.org/', './nwmatcher' ]
+517 verbose url resolved https://registry.npmjs.org/nwmatcher
+518 info trying registry request attempt 1 at 19:15:17
+519 http GET https://registry.npmjs.org/nwmatcher
+520 verbose url raw cssom
+521 verbose url resolving [ 'https://registry.npmjs.org/', './cssom' ]
+522 verbose url resolved https://registry.npmjs.org/cssom
+523 info trying registry request attempt 1 at 19:15:17
+524 http GET https://registry.npmjs.org/cssom
+525 verbose url raw cssstyle
+526 verbose url resolving [ 'https://registry.npmjs.org/', './cssstyle' ]
+527 verbose url resolved https://registry.npmjs.org/cssstyle
+528 info trying registry request attempt 1 at 19:15:17
+529 http GET https://registry.npmjs.org/cssstyle
+530 verbose url raw contextify
+531 verbose url resolving [ 'https://registry.npmjs.org/', './contextify' ]
+532 verbose url resolved https://registry.npmjs.org/contextify
+533 info trying registry request attempt 1 at 19:15:17
+534 http GET https://registry.npmjs.org/contextify
+535 verbose url raw request
+536 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+537 verbose url resolved https://registry.npmjs.org/request
+538 info trying registry request attempt 1 at 19:15:17
+539 verbose etag "933JKZLD2NBVHU2TWGCMJK8HA"
+540 http GET https://registry.npmjs.org/request
+541 http 200 https://registry.npmjs.org/cssom
+542 silly registry.get cb [ 200,
+542 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+542 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+542 silly registry.get     etag: '"7TUXRYV62WJY3BY8XJ9N9LC5P"',
+542 silly registry.get     'content-type': 'application/json',
+542 silly registry.get     'cache-control': 'max-age=30',
+542 silly registry.get     'content-length': '8629',
+542 silly registry.get     'accept-ranges': 'bytes',
+542 silly registry.get     via: '1.1 varnish',
+542 silly registry.get     age: '240',
+542 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+542 silly registry.get     'x-cache': 'HIT',
+542 silly registry.get     'x-cache-hits': '1',
+542 silly registry.get     'x-timer': 'S1404785717.400959,VS0,VE29',
+542 silly registry.get     vary: 'Accept',
+542 silly registry.get     'keep-alive': 'timeout=10, max=50',
+542 silly registry.get     connection: 'Keep-Alive' } ]
+543 http 200 https://registry.npmjs.org/htmlparser
+544 silly registry.get cb [ 200,
+544 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+544 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+544 silly registry.get     etag: '"204GEZ9AMOQW9DYGG4CHFSKBP"',
+544 silly registry.get     'content-type': 'application/json',
+544 silly registry.get     'cache-control': 'max-age=30',
+544 silly registry.get     'content-length': '16200',
+544 silly registry.get     'accept-ranges': 'bytes',
+544 silly registry.get     via: '1.1 varnish',
+544 silly registry.get     age: '619',
+544 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+544 silly registry.get     'x-cache': 'MISS',
+544 silly registry.get     'x-cache-hits': '0',
+544 silly registry.get     'x-timer': 'S1404785717.384209,VS0,VE29',
+544 silly registry.get     vary: 'Accept',
+544 silly registry.get     'keep-alive': 'timeout=10, max=50',
+544 silly registry.get     connection: 'Keep-Alive' } ]
+545 http 200 https://registry.npmjs.org/cssstyle
+546 silly registry.get cb [ 200,
+546 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+546 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+546 silly registry.get     etag: '"BCY3BHEW5WWJ0G0A5T7G5SI86"',
+546 silly registry.get     'content-type': 'application/json',
+546 silly registry.get     'cache-control': 'max-age=30',
+546 silly registry.get     'content-length': '18937',
+546 silly registry.get     'accept-ranges': 'bytes',
+546 silly registry.get     via: '1.1 varnish',
+546 silly registry.get     age: '917',
+546 silly registry.get     'x-served-by': 'cache-sjc3131-SJC',
+546 silly registry.get     'x-cache': 'HIT',
+546 silly registry.get     'x-cache-hits': '1',
+546 silly registry.get     'x-timer': 'S1404785717.392069,VS0,VE29',
+546 silly registry.get     vary: 'Accept',
+546 silly registry.get     'keep-alive': 'timeout=10, max=50',
+546 silly registry.get     connection: 'Keep-Alive' } ]
+547 silly addNameRange number 2 { name: 'cssom', range: '>=0.2.5-0 <0.3.0-0', hasData: true }
+548 silly addNameRange versions [ 'cssom',
+548 silly addNameRange   [ '0.2.0', '0.2.1', '0.2.2', '0.2.3', '0.2.4', '0.2.5', '0.3.0' ] ]
+549 verbose addNamed [ 'cssom', '0.2.5' ]
+550 verbose addNamed [ '0.2.5', '0.2.5' ]
+551 silly lockFile 452affd3-cssom-0-2-5 cssom@0.2.5
+552 verbose lock cssom@0.2.5 /Users/caly/.npm/452affd3-cssom-0-2-5.lock
+553 silly addNameRange number 2 { name: 'htmlparser',
+553 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+553 silly addNameRange   hasData: true }
+554 silly addNameRange versions [ 'htmlparser',
+554 silly addNameRange   [ '1.6.2',
+554 silly addNameRange     '1.7.0',
+554 silly addNameRange     '1.7.1',
+554 silly addNameRange     '1.7.2',
+554 silly addNameRange     '1.7.3',
+554 silly addNameRange     '1.7.4',
+554 silly addNameRange     '1.7.5',
+554 silly addNameRange     '1.7.6',
+554 silly addNameRange     '1.7.7' ] ]
+555 verbose addNamed [ 'htmlparser', '1.7.7' ]
+556 verbose addNamed [ '1.7.7', '1.7.7' ]
+557 silly lockFile 75a5fc3c-htmlparser-1-7-7 htmlparser@1.7.7
+558 verbose lock htmlparser@1.7.7 /Users/caly/.npm/75a5fc3c-htmlparser-1-7-7.lock
+559 silly addNameRange number 2 { name: 'cssstyle', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+560 silly addNameRange versions [ 'cssstyle',
+560 silly addNameRange   [ '0.1.0',
+560 silly addNameRange     '0.2.0',
+560 silly addNameRange     '0.2.1',
+560 silly addNameRange     '0.2.2',
+560 silly addNameRange     '0.2.3',
+560 silly addNameRange     '0.2.4',
+560 silly addNameRange     '0.2.5',
+560 silly addNameRange     '0.2.6',
+560 silly addNameRange     '0.2.7',
+560 silly addNameRange     '0.2.8',
+560 silly addNameRange     '0.2.9',
+560 silly addNameRange     '0.2.10',
+560 silly addNameRange     '0.2.11',
+560 silly addNameRange     '0.2.12',
+560 silly addNameRange     '0.2.13',
+560 silly addNameRange     '0.2.14' ] ]
+561 verbose addNamed [ 'cssstyle', '0.2.14' ]
+562 verbose addNamed [ '0.2.14', '0.2.14' ]
+563 silly lockFile b6ebad18-cssstyle-0-2-14 cssstyle@0.2.14
+564 verbose lock cssstyle@0.2.14 /Users/caly/.npm/b6ebad18-cssstyle-0-2-14.lock
+565 silly lockFile c6f46bfa--npmjs-org-cssom-cssom-0-2-5-tgz https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+566 verbose lock https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz /Users/caly/.npm/c6f46bfa--npmjs-org-cssom-cssom-0-2-5-tgz.lock
+567 silly lockFile 7c140412--htmlparser-htmlparser-1-7-7-tgz https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+568 verbose lock https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz /Users/caly/.npm/7c140412--htmlparser-htmlparser-1-7-7-tgz.lock
+569 silly lockFile 3af6b728-org-cssstyle-cssstyle-0-2-14-tgz https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+570 verbose lock https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz /Users/caly/.npm/3af6b728-org-cssstyle-cssstyle-0-2-14-tgz.lock
+571 verbose addRemoteTarball [ 'https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz',
+571 verbose addRemoteTarball   '2682709b5902e7212df529116ff788cd5b254894' ]
+572 verbose addRemoteTarball [ 'https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz',
+572 verbose addRemoteTarball   '19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e' ]
+573 verbose addRemoteTarball [ 'https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz',
+573 verbose addRemoteTarball   '17c1a6cf2c53617a1bc2e58cad2c7f2d61f3a577' ]
+574 info retry fetch attempt 1 at 19:15:17
+575 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+576 info retry fetch attempt 1 at 19:15:17
+577 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+578 info retry fetch attempt 1 at 19:15:17
+579 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+580 http GET https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+581 http GET https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+582 http GET https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+583 http 200 https://registry.npmjs.org/nwmatcher
+584 silly registry.get cb [ 200,
+584 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+584 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+584 silly registry.get     etag: '"D4MSGVODX7DOY2YU4BVZRLYE1"',
+584 silly registry.get     'content-type': 'application/json',
+584 silly registry.get     'cache-control': 'max-age=30',
+584 silly registry.get     'content-length': '9473',
+584 silly registry.get     'accept-ranges': 'bytes',
+584 silly registry.get     via: '1.1 varnish',
+584 silly registry.get     age: '2021',
+584 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+584 silly registry.get     'x-cache': 'HIT',
+584 silly registry.get     'x-cache-hits': '1',
+584 silly registry.get     'x-timer': 'S1404785717.386991,VS0,VE140',
+584 silly registry.get     vary: 'Accept',
+584 silly registry.get     'keep-alive': 'timeout=10, max=50',
+584 silly registry.get     connection: 'Keep-Alive' } ]
+585 silly addNameRange number 2 { name: 'nwmatcher', range: '>=1.3.1-0 <1.4.0-0', hasData: true }
+586 silly addNameRange versions [ 'nwmatcher', [ '1.2.5', '1.3.0', '1.3.1', '1.3.2', '1.3.3' ] ]
+587 verbose addNamed [ 'nwmatcher', '1.3.3' ]
+588 verbose addNamed [ '1.3.3', '1.3.3' ]
+589 silly lockFile 4cb63834-nwmatcher-1-3-3 nwmatcher@1.3.3
+590 verbose lock nwmatcher@1.3.3 /Users/caly/.npm/4cb63834-nwmatcher-1-3-3.lock
+591 silly lockFile 681ea4de-rg-nwmatcher-nwmatcher-1-3-3-tgz https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+592 verbose lock https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz /Users/caly/.npm/681ea4de-rg-nwmatcher-nwmatcher-1-3-3-tgz.lock
+593 verbose addRemoteTarball [ 'https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz',
+593 verbose addRemoteTarball   '2744776283cbff8d4dd31e3cd6f8fd69f738fa54' ]
+594 info retry fetch attempt 1 at 19:15:17
+595 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+596 http GET https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+597 http 200 https://registry.npmjs.org/contextify
+598 silly registry.get cb [ 200,
+598 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+598 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+598 silly registry.get     etag: '"533MUG4QQFQ1WNRGFBVFLRSEZ"',
+598 silly registry.get     'content-type': 'application/json',
+598 silly registry.get     'cache-control': 'max-age=30',
+598 silly registry.get     'content-length': '23462',
+598 silly registry.get     'accept-ranges': 'bytes',
+598 silly registry.get     via: '1.1 varnish',
+598 silly registry.get     age: '2436',
+598 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+598 silly registry.get     'x-cache': 'HIT',
+598 silly registry.get     'x-cache-hits': '1',
+598 silly registry.get     'x-timer': 'S1404785717.397430,VS0,VE88',
+598 silly registry.get     vary: 'Accept',
+598 silly registry.get     'keep-alive': 'timeout=10, max=50',
+598 silly registry.get     connection: 'Keep-Alive' } ]
+599 silly addNameRange number 2 { name: 'contextify',
+599 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+599 silly addNameRange   hasData: true }
+600 silly addNameRange versions [ 'contextify',
+600 silly addNameRange   [ '0.0.2',
+600 silly addNameRange     '0.0.3',
+600 silly addNameRange     '0.0.4',
+600 silly addNameRange     '0.0.5',
+600 silly addNameRange     '0.0.6',
+600 silly addNameRange     '0.0.7',
+600 silly addNameRange     '0.1.0',
+600 silly addNameRange     '0.1.1',
+600 silly addNameRange     '0.1.2',
+600 silly addNameRange     '0.1.3',
+600 silly addNameRange     '0.1.4',
+600 silly addNameRange     '0.1.5',
+600 silly addNameRange     '0.1.6',
+600 silly addNameRange     '0.1.7',
+600 silly addNameRange     '0.1.8' ] ]
+601 verbose addNamed [ 'contextify', '0.1.8' ]
+602 verbose addNamed [ '0.1.8', '0.1.8' ]
+603 silly lockFile c5acf7e8-contextify-0-1-8 contextify@0.1.8
+604 verbose lock contextify@0.1.8 /Users/caly/.npm/c5acf7e8-contextify-0-1-8.lock
+605 silly lockFile 2f68dae4--contextify-contextify-0-1-8-tgz https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+606 verbose lock https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz /Users/caly/.npm/2f68dae4--contextify-contextify-0-1-8-tgz.lock
+607 verbose addRemoteTarball [ 'https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz',
+607 verbose addRemoteTarball   '57fe505a1a54855d3af2aacd77110f33a04abe2d' ]
+608 info retry fetch attempt 1 at 19:15:18
+609 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+610 http GET https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+611 http 200 https://registry.npmjs.org/request
+612 silly registry.get cb [ 200,
+612 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:17 GMT',
+612 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+612 silly registry.get     etag: '"9Y5IYE8VT7ZCSZI80K00WPLCO"',
+612 silly registry.get     'content-type': 'application/json',
+612 silly registry.get     'cache-control': 'max-age=30',
+612 silly registry.get     'content-length': '90174',
+612 silly registry.get     'accept-ranges': 'bytes',
+612 silly registry.get     via: '1.1 varnish',
+612 silly registry.get     age: '1072',
+612 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+612 silly registry.get     'x-cache': 'HIT',
+612 silly registry.get     'x-cache-hits': '1',
+612 silly registry.get     'x-timer': 'S1404785717.453730,VS0,VE0',
+612 silly registry.get     vary: 'Accept',
+612 silly registry.get     'keep-alive': 'timeout=10, max=49',
+612 silly registry.get     connection: 'Keep-Alive' } ]
+613 silly addNameRange number 2 { name: 'request', range: '>=2.0.0-0 <3.0.0-0', hasData: true }
+614 silly addNameRange versions [ 'request',
+614 silly addNameRange   [ '0.10.0',
+614 silly addNameRange     '0.8.3',
+614 silly addNameRange     '0.9.0',
+614 silly addNameRange     '0.9.1',
+614 silly addNameRange     '0.9.5',
+614 silly addNameRange     '1.0.0',
+614 silly addNameRange     '1.1.0',
+614 silly addNameRange     '1.1.1',
+614 silly addNameRange     '1.2.0',
+614 silly addNameRange     '1.9.0',
+614 silly addNameRange     '1.9.1',
+614 silly addNameRange     '1.9.2',
+614 silly addNameRange     '1.9.3',
+614 silly addNameRange     '1.9.5',
+614 silly addNameRange     '1.9.7',
+614 silly addNameRange     '1.9.8',
+614 silly addNameRange     '1.9.9',
+614 silly addNameRange     '2.0.0',
+614 silly addNameRange     '2.0.1',
+614 silly addNameRange     '2.0.2',
+614 silly addNameRange     '2.0.3',
+614 silly addNameRange     '2.0.4',
+614 silly addNameRange     '2.0.5',
+614 silly addNameRange     '2.1.0',
+614 silly addNameRange     '2.1.1',
+614 silly addNameRange     '2.2.0',
+614 silly addNameRange     '2.2.5',
+614 silly addNameRange     '2.2.6',
+614 silly addNameRange     '2.2.9',
+614 silly addNameRange     '2.9.0',
+614 silly addNameRange     '2.9.1',
+614 silly addNameRange     '2.9.2',
+614 silly addNameRange     '2.9.3',
+614 silly addNameRange     '2.9.100',
+614 silly addNameRange     '2.9.150',
+614 silly addNameRange     '2.9.151',
+614 silly addNameRange     '2.9.152',
+614 silly addNameRange     '2.9.153',
+614 silly addNameRange     '2.9.200',
+614 silly addNameRange     '2.9.201',
+614 silly addNameRange     '2.9.202',
+614 silly addNameRange     '2.9.203',
+614 silly addNameRange     '2.10.0',
+614 silly addNameRange     '2.11.0',
+614 silly addNameRange     '2.11.1',
+614 silly addNameRange     '2.11.2',
+614 silly addNameRange     '2.11.3',
+614 silly addNameRange     '2.11.4',
+614 silly addNameRange     '2.12.0',
+614 silly addNameRange     '2.14.0',
+614 silly addNameRange     '2.16.0',
+614 silly addNameRange     '2.16.2',
+614 silly addNameRange     '2.16.4',
+614 silly addNameRange     '2.16.6',
+614 silly addNameRange     '2.18.0',
+614 silly addNameRange     '2.19.0',
+614 silly addNameRange     '2.20.0',
+614 silly addNameRange     '2.21.0',
+614 silly addNameRange     '2.22.0',
+614 silly addNameRange     '2.23.0',
+614 silly addNameRange     '2.24.0',
+614 silly addNameRange     '2.25.0',
+614 silly addNameRange     '2.26.0',
+614 silly addNameRange     '2.27.0',
+614 silly addNameRange     '2.28.0',
+614 silly addNameRange     '2.29.0',
+614 silly addNameRange     '2.30.0',
+614 silly addNameRange     '2.31.0',
+614 silly addNameRange     '2.32.0',
+614 silly addNameRange     '2.33.0',
+614 silly addNameRange     '2.34.0',
+614 silly addNameRange     '2.35.0',
+614 silly addNameRange     '2.36.0',
+614 silly addNameRange     '2.37.0' ] ]
+615 verbose addNamed [ 'request', '2.37.0' ]
+616 verbose addNamed [ '2.37.0', '2.37.0' ]
+617 silly lockFile e3e929b1-request-2-37-0 request@2.37.0
+618 verbose lock request@2.37.0 /Users/caly/.npm/e3e929b1-request-2-37-0.lock
+619 http 200 https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+620 http 200 https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+621 http 200 https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+622 http 200 https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+623 silly lockFile d37163ca-s-org-request-request-2-37-0-tgz https://registry.npmjs.org/request/-/request-2.37.0.tgz
+624 verbose lock https://registry.npmjs.org/request/-/request-2.37.0.tgz /Users/caly/.npm/d37163ca-s-org-request-request-2-37-0-tgz.lock
+625 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.37.0.tgz',
+625 verbose addRemoteTarball   '6c04c1f0f34af0c8b7408f1c1e30d4d6bd852d46' ]
+626 info retry fetch attempt 1 at 19:15:18
+627 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/request/-/request-2.37.0.tgz
+628 http GET https://registry.npmjs.org/request/-/request-2.37.0.tgz
+629 silly lockFile c6f46bfa--npmjs-org-cssom-cssom-0-2-5-tgz https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+630 silly lockFile c6f46bfa--npmjs-org-cssom-cssom-0-2-5-tgz https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz
+631 silly lockFile 452affd3-cssom-0-2-5 cssom@0.2.5
+632 silly lockFile 452affd3-cssom-0-2-5 cssom@0.2.5
+633 silly lockFile ff3f1f9f-cssom-0-2-5 cssom@~0.2.5
+634 silly lockFile ff3f1f9f-cssom-0-2-5 cssom@~0.2.5
+635 silly lockFile 7c140412--htmlparser-htmlparser-1-7-7-tgz https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+636 silly lockFile 7c140412--htmlparser-htmlparser-1-7-7-tgz https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz
+637 silly lockFile 75a5fc3c-htmlparser-1-7-7 htmlparser@1.7.7
+638 silly lockFile 75a5fc3c-htmlparser-1-7-7 htmlparser@1.7.7
+639 silly lockFile 4d163ec2-htmlparser-1-x htmlparser@1.x
+640 silly lockFile 4d163ec2-htmlparser-1-x htmlparser@1.x
+641 silly lockFile 3af6b728-org-cssstyle-cssstyle-0-2-14-tgz https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+642 silly lockFile 3af6b728-org-cssstyle-cssstyle-0-2-14-tgz https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz
+643 silly lockFile b6ebad18-cssstyle-0-2-14 cssstyle@0.2.14
+644 silly lockFile b6ebad18-cssstyle-0-2-14 cssstyle@0.2.14
+645 silly lockFile 4c95b135-cssstyle-0-2-3 cssstyle@~0.2.3
+646 silly lockFile 4c95b135-cssstyle-0-2-3 cssstyle@~0.2.3
+647 silly lockFile 681ea4de-rg-nwmatcher-nwmatcher-1-3-3-tgz https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+648 silly lockFile 681ea4de-rg-nwmatcher-nwmatcher-1-3-3-tgz https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz
+649 silly lockFile 4cb63834-nwmatcher-1-3-3 nwmatcher@1.3.3
+650 silly lockFile 4cb63834-nwmatcher-1-3-3 nwmatcher@1.3.3
+651 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+652 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+653 http 200 https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+654 silly lockFile 2f68dae4--contextify-contextify-0-1-8-tgz https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+655 silly lockFile 2f68dae4--contextify-contextify-0-1-8-tgz https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz
+656 silly lockFile c5acf7e8-contextify-0-1-8 contextify@0.1.8
+657 silly lockFile c5acf7e8-contextify-0-1-8 contextify@0.1.8
+658 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+659 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+660 http 200 https://registry.npmjs.org/request/-/request-2.37.0.tgz
+661 silly lockFile d37163ca-s-org-request-request-2-37-0-tgz https://registry.npmjs.org/request/-/request-2.37.0.tgz
+662 silly lockFile d37163ca-s-org-request-request-2-37-0-tgz https://registry.npmjs.org/request/-/request-2.37.0.tgz
+663 silly lockFile e3e929b1-request-2-37-0 request@2.37.0
+664 silly lockFile e3e929b1-request-2-37-0 request@2.37.0
+665 silly lockFile c23ecae0-request-2-x request@2.x
+666 silly lockFile c23ecae0-request-2-x request@2.x
+667 silly resolved [ { name: 'cssom',
+667 silly resolved     description: 'CSS Object Model implementation and CSS parser',
+667 silly resolved     keywords: [ 'CSS', 'CSSOM', 'parser', 'styleSheet' ],
+667 silly resolved     version: '0.2.5',
+667 silly resolved     homepage: 'https://github.com/NV/CSSOM',
+667 silly resolved     author: { name: 'Nikita Vasilyev', email: 'me@elv1s.ru' },
+667 silly resolved     repository: { type: 'git', url: 'git://github.com/NV/CSSOM.git' },
+667 silly resolved     bugs: { url: 'https://github.com/NV/CSSOM/issues' },
+667 silly resolved     directories: { lib: './lib' },
+667 silly resolved     main: './lib/index.js',
+667 silly resolved     engines: { node: '>=0.2.0' },
+667 silly resolved     devDependencies: { jake: '0.2.x' },
+667 silly resolved     licenses: [ [Object] ],
+667 silly resolved     scripts: { prepublish: 'jake lib/index.js' },
+667 silly resolved     readme: '',
+667 silly resolved     _id: 'cssom@0.2.5',
+667 silly resolved     dist:
+667 silly resolved      { shasum: '2682709b5902e7212df529116ff788cd5b254894',
+667 silly resolved        tarball: 'http://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz' },
+667 silly resolved     maintainers: [ [Object] ],
+667 silly resolved     _shasum: '2682709b5902e7212df529116ff788cd5b254894',
+667 silly resolved     _from: 'cssom@~0.2.5',
+667 silly resolved     _resolved: 'https://registry.npmjs.org/cssom/-/cssom-0.2.5.tgz' },
+667 silly resolved   { name: 'htmlparser',
+667 silly resolved     description: 'Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers',
+667 silly resolved     version: '1.7.7',
+667 silly resolved     author: { name: 'Chris Winberry', email: 'chris@winberry.net' },
+667 silly resolved     contributors: [],
+667 silly resolved     repository:
+667 silly resolved      { type: 'git',
+667 silly resolved        url: 'https://github.com/tautologistics/node-htmlparser' },
+667 silly resolved     keywords: [ 'html', 'xml', 'rss', 'parser' ],
+667 silly resolved     directories: { lib: './lib/' },
+667 silly resolved     main: './lib/htmlparser',
+667 silly resolved     homepage: 'http://github.com/tautologistics/node-htmlparser',
+667 silly resolved     bugs: { url: 'http://github.com/tautologistics/node-htmlparser/issues' },
+667 silly resolved     engines: { node: '>=0.1.33' },
+667 silly resolved     licenses: [ [Object] ],
+667 silly resolved     _id: 'htmlparser@1.7.7',
+667 silly resolved     _from: 'htmlparser@1.x',
+667 silly resolved     dist:
+667 silly resolved      { shasum: '19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e',
+667 silly resolved        tarball: 'http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz' },
+667 silly resolved     _npmVersion: '1.3.14',
+667 silly resolved     _npmUser: { name: 'tautologistics', email: 'chris@winberry.net' },
+667 silly resolved     maintainers: [ [Object] ],
+667 silly resolved     _shasum: '19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e',
+667 silly resolved     _resolved: 'https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz' },
+667 silly resolved   { name: 'cssstyle',
+667 silly resolved     description: 'CSSStyleDeclaration Object Model implementation',
+667 silly resolved     keywords: [ 'CSS', 'CSSStyleDeclaration', 'StyleSheet' ],
+667 silly resolved     version: '0.2.14',
+667 silly resolved     homepage: 'https://github.com/chad3814/CSSStyleDeclaration',
+667 silly resolved     maintainers: [ [Object] ],
+667 silly resolved     contributors: [ [Object] ],
+667 silly resolved     repository:
+667 silly resolved      { type: 'git',
+667 silly resolved        url: 'git://github.com/chad3814/CSSStyleDeclaration.git' },
+667 silly resolved     bugs: { url: 'https://github.com/chad3814/CSSStyleDeclaration/issues' },
+667 silly resolved     directories: { lib: './lib' },
+667 silly resolved     main: './lib/CSSStyleDeclaration.js',
+667 silly resolved     dependencies: { cssom: '0.3.x' },
+667 silly resolved     devDependencies: { nodeunit: '~0.8.0' },
+667 silly resolved     scripts: { test: 'nodeunit tests' },
+667 silly resolved     licenses: [ [Object] ],
+667 silly resolved     _id: 'cssstyle@0.2.14',
+667 silly resolved     dist:
+667 silly resolved      { shasum: '17c1a6cf2c53617a1bc2e58cad2c7f2d61f3a577',
+667 silly resolved        tarball: 'http://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz' },
+667 silly resolved     _from: 'cssstyle@~0.2.3',
+667 silly resolved     _npmVersion: '1.2.19',
+667 silly resolved     _npmUser: { name: 'chad3814', email: 'chad@chad-cat-lore-eddie.com' },
+667 silly resolved     _shasum: '17c1a6cf2c53617a1bc2e58cad2c7f2d61f3a577',
+667 silly resolved     _resolved: 'https://registry.npmjs.org/cssstyle/-/cssstyle-0.2.14.tgz' },
+667 silly resolved   { name: 'nwmatcher',
+667 silly resolved     version: '1.3.3',
+667 silly resolved     description: 'A CSS3-compliant JavaScript selector engine.',
+667 silly resolved     homepage: 'http://javascript.nwbox.com/NWMatcher/',
+667 silly resolved     main: './src/nwmatcher',
+667 silly resolved     keywords: [ 'css', 'matcher', 'selector', 'ender' ],
+667 silly resolved     licenses: [ [Object] ],
+667 silly resolved     author:
+667 silly resolved      { name: 'Diego Perini',
+667 silly resolved        email: 'diego.perini@gmail.com',
+667 silly resolved        url: 'http://www.iport.it/' },
+667 silly resolved     maintainers: [ [Object], [Object] ],
+667 silly resolved     bugs: { url: 'http://github.com/dperini/nwmatcher/issues' },
+667 silly resolved     repository: { type: 'git', url: 'git://github.com/dperini/nwmatcher.git' },
+667 silly resolved     ender: './lib/ender/bridge.js',
+667 silly resolved     _id: 'nwmatcher@1.3.3',
+667 silly resolved     dist:
+667 silly resolved      { shasum: '2744776283cbff8d4dd31e3cd6f8fd69f738fa54',
+667 silly resolved        tarball: 'http://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz' },
+667 silly resolved     _from: 'nwmatcher@~1.3.1',
+667 silly resolved     _npmVersion: '1.4.3',
+667 silly resolved     _npmUser: { name: 'diego', email: 'diego.perini@gmail.com' },
+667 silly resolved     directories: {},
+667 silly resolved     _shasum: '2744776283cbff8d4dd31e3cd6f8fd69f738fa54',
+667 silly resolved     _resolved: 'https://registry.npmjs.org/nwmatcher/-/nwmatcher-1.3.3.tgz' },
+667 silly resolved   { name: 'contextify',
+667 silly resolved     version: '0.1.8',
+667 silly resolved     description: 'Turn an object into a persistent execution context.',
+667 silly resolved     author: { name: 'Brian McDaniel', email: 'brianmcd05@gmail.com' },
+667 silly resolved     contributors:
+667 silly resolved      [ [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object],
+667 silly resolved        [Object] ],
+667 silly resolved     keywords: [ 'context', 'vm' ],
+667 silly resolved     repository:
+667 silly resolved      { type: 'git',
+667 silly resolved        url: 'https://github.com/brianmcd/contextify.git' },
+667 silly resolved     main: './lib/contextify',
+667 silly resolved     scripts: { test: 'nodeunit test/', install: 'node-gyp rebuild' },
+667 silly resolved     engines: { node: '>=0.4.0' },
+667 silly resolved     licenses: [ [Object] ],
+667 silly resolved     dependencies: { bindings: '*', nan: '~1.0.0' },
+667 silly resolved     devDependencies: { nodeunit: '>=0.5.x' },
+667 silly resolved     gypfile: true,
+667 silly resolved     bugs: { url: 'https://github.com/brianmcd/contextify/issues' },
+667 silly resolved     homepage: 'https://github.com/brianmcd/contextify',
+667 silly resolved     _id: 'contextify@0.1.8',
+667 silly resolved     _shasum: '57fe505a1a54855d3af2aacd77110f33a04abe2d',
+667 silly resolved     _from: 'contextify@~0.1.5',
+667 silly resolved     _npmVersion: '1.4.9',
+667 silly resolved     _npmUser: { name: 'brianmcd', email: 'brianmcd05@gmail.com' },
+667 silly resolved     maintainers: [ [Object] ],
+667 silly resolved     dist:
+667 silly resolved      { shasum: '57fe505a1a54855d3af2aacd77110f33a04abe2d',
+667 silly resolved        tarball: 'http://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz' },
+667 silly resolved     directories: {},
+667 silly resolved     _resolved: 'https://registry.npmjs.org/contextify/-/contextify-0.1.8.tgz' },
+667 silly resolved   { name: 'request',
+667 silly resolved     description: 'Simplified HTTP request client.',
+667 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+667 silly resolved     version: '2.37.0',
+667 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+667 silly resolved     repository: { type: 'git', url: 'http://github.com/mikeal/request.git' },
+667 silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+667 silly resolved     license: 'Apache-2.0',
+667 silly resolved     engines: [ 'node >= 0.8.0' ],
+667 silly resolved     main: 'index.js',
+667 silly resolved     dependencies:
+667 silly resolved      { qs: '~0.6.0',
+667 silly resolved        'json-stringify-safe': '~5.0.0',
+667 silly resolved        'mime-types': '~1.0.1',
+667 silly resolved        'forever-agent': '~0.5.0',
+667 silly resolved        'node-uuid': '~1.4.0',
+667 silly resolved        'tough-cookie': '>=0.12.0',
+667 silly resolved        'form-data': '~0.1.0',
+667 silly resolved        'tunnel-agent': '~0.4.0',
+667 silly resolved        'http-signature': '~0.10.0',
+667 silly resolved        'oauth-sign': '~0.3.0',
+667 silly resolved        hawk: '1.1.1',
+667 silly resolved        'aws-sign2': '~0.5.0' },
+667 silly resolved     optionalDependencies:
+667 silly resolved      { 'tough-cookie': '>=0.12.0',
+667 silly resolved        'form-data': '~0.1.0',
+667 silly resolved        'tunnel-agent': '~0.4.0',
+667 silly resolved        'http-signature': '~0.10.0',
+667 silly resolved        'oauth-sign': '~0.3.0',
+667 silly resolved        hawk: '1.1.1',
+667 silly resolved        'aws-sign2': '~0.5.0' },
+667 silly resolved     scripts: { test: 'node tests/run.js' },
+667 silly resolved     homepage: 'https://github.com/mikeal/request',
+667 silly resolved     _id: 'request@2.37.0',
+667 silly resolved     _shasum: '6c04c1f0f34af0c8b7408f1c1e30d4d6bd852d46',
+667 silly resolved     _from: 'request@2.x',
+667 silly resolved     _npmVersion: '1.4.9',
+667 silly resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+667 silly resolved     maintainers: [ [Object] ],
+667 silly resolved     dist:
+667 silly resolved      { shasum: '6c04c1f0f34af0c8b7408f1c1e30d4d6bd852d46',
+667 silly resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.37.0.tgz' },
+667 silly resolved     directories: {},
+667 silly resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.37.0.tgz' } ]
+668 info install cssom@0.2.5 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+669 info install htmlparser@1.7.7 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+670 info install cssstyle@0.2.14 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+671 info install nwmatcher@1.3.3 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+672 info install contextify@0.1.8 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+673 info install request@2.37.0 into /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+674 info installOne cssom@0.2.5
+675 info installOne htmlparser@1.7.7
+676 info installOne cssstyle@0.2.14
+677 info installOne nwmatcher@1.3.3
+678 info installOne contextify@0.1.8
+679 info installOne request@2.37.0
+680 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom unbuild
+681 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser unbuild
+682 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssstyle unbuild
+683 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher unbuild
+684 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify unbuild
+685 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/request unbuild
+686 verbose tar unpack /Users/caly/.npm/cssom/0.2.5/package.tgz
+687 silly lockFile c76c0796-modules-jsdom-node-modules-cssom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom
+688 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom /Users/caly/.npm/c76c0796-modules-jsdom-node-modules-cssom.lock
+689 silly lockFile 97cba3aa-caly-npm-cssom-0-2-5-package-tgz tar:///Users/caly/.npm/cssom/0.2.5/package.tgz
+690 verbose lock tar:///Users/caly/.npm/cssom/0.2.5/package.tgz /Users/caly/.npm/97cba3aa-caly-npm-cssom-0-2-5-package-tgz.lock
+691 verbose tar unpack /Users/caly/.npm/htmlparser/1.7.7/package.tgz
+692 silly lockFile 7065aae6-es-jsdom-node-modules-htmlparser tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser
+693 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser /Users/caly/.npm/7065aae6-es-jsdom-node-modules-htmlparser.lock
+694 silly lockFile bd22c93b-npm-htmlparser-1-7-7-package-tgz tar:///Users/caly/.npm/htmlparser/1.7.7/package.tgz
+695 verbose lock tar:///Users/caly/.npm/htmlparser/1.7.7/package.tgz /Users/caly/.npm/bd22c93b-npm-htmlparser-1-7-7-package-tgz.lock
+696 verbose tar unpack /Users/caly/.npm/cssstyle/0.2.14/package.tgz
+697 silly lockFile 6f8d61b2-ules-jsdom-node-modules-cssstyle tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssstyle
+698 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssstyle /Users/caly/.npm/6f8d61b2-ules-jsdom-node-modules-cssstyle.lock
+699 silly lockFile 102ba247--npm-cssstyle-0-2-14-package-tgz tar:///Users/caly/.npm/cssstyle/0.2.14/package.tgz
+700 verbose lock tar:///Users/caly/.npm/cssstyle/0.2.14/package.tgz /Users/caly/.npm/102ba247--npm-cssstyle-0-2-14-package-tgz.lock
+701 verbose tar unpack /Users/caly/.npm/nwmatcher/1.3.3/package.tgz
+702 silly lockFile 854da652-les-jsdom-node-modules-nwmatcher tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher
+703 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher /Users/caly/.npm/854da652-les-jsdom-node-modules-nwmatcher.lock
+704 silly lockFile aaad2975--npm-nwmatcher-1-3-3-package-tgz tar:///Users/caly/.npm/nwmatcher/1.3.3/package.tgz
+705 verbose lock tar:///Users/caly/.npm/nwmatcher/1.3.3/package.tgz /Users/caly/.npm/aaad2975--npm-nwmatcher-1-3-3-package-tgz.lock
+706 verbose tar unpack /Users/caly/.npm/contextify/0.1.8/package.tgz
+707 silly lockFile b5e7908c-es-jsdom-node-modules-contextify tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify
+708 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify /Users/caly/.npm/b5e7908c-es-jsdom-node-modules-contextify.lock
+709 silly lockFile d2679038-npm-contextify-0-1-8-package-tgz tar:///Users/caly/.npm/contextify/0.1.8/package.tgz
+710 verbose lock tar:///Users/caly/.npm/contextify/0.1.8/package.tgz /Users/caly/.npm/d2679038-npm-contextify-0-1-8-package-tgz.lock
+711 verbose tar unpack /Users/caly/.npm/request/2.37.0/package.tgz
+712 silly lockFile a1b09ed6-dules-jsdom-node-modules-request tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/request
+713 verbose lock tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/request /Users/caly/.npm/a1b09ed6-dules-jsdom-node-modules-request.lock
+714 silly lockFile c4185444-y-npm-request-2-37-0-package-tgz tar:///Users/caly/.npm/request/2.37.0/package.tgz
+715 verbose lock tar:///Users/caly/.npm/request/2.37.0/package.tgz /Users/caly/.npm/c4185444-y-npm-request-2-37-0-package-tgz.lock
+716 silly gunzTarPerm modes [ '755', '644' ]
+717 silly gunzTarPerm modes [ '755', '644' ]
+718 silly gunzTarPerm modes [ '755', '644' ]
+719 silly gunzTarPerm modes [ '755', '644' ]
+720 silly gunzTarPerm modes [ '755', '644' ]
+721 silly gunzTarPerm modes [ '755', '644' ]
+722 silly gunzTarPerm extractEntry package.json
+723 silly gunzTarPerm extractEntry package.json
+724 silly gunzTarPerm extractEntry package.json
+725 silly gunzTarPerm extractEntry package.json
+726 silly gunzTarPerm extractEntry package.json
+727 silly gunzTarPerm extractEntry package.json
+728 silly gunzTarPerm extractEntry .npmignore
+729 silly gunzTarPerm extractEntry .gitmodules
+730 silly gunzTarPerm extractEntry README.md
+731 silly gunzTarPerm extractEntry LICENSE
+732 silly gunzTarPerm extractEntry .npmignore
+733 silly gunzTarPerm extractEntry README.md
+734 silly gunzTarPerm extractEntry README.md
+735 silly gunzTarPerm extractEntry LICENSE
+736 silly gunzTarPerm extractEntry .npmignore
+737 silly gunzTarPerm extractEntry README.md
+738 silly gunzTarPerm extractEntry .npmignore
+739 silly gunzTarPerm extractEntry README.md
+740 silly gunzTarPerm extractEntry lib/clone.js
+741 silly gunzTarPerm extractEntry lib/CSSKeyframeRule.js
+742 silly gunzTarPerm extractEntry src/nwmatcher-base.js
+743 silly gunzTarPerm extractEntry src/nwmatcher-noqsa.js
+744 silly gunzTarPerm extractEntry src/nwmatcher.js
+745 silly gunzTarPerm extractEntry src/modules/nwmatcher-cache.js
+746 silly gunzTarPerm extractEntry src/modules/nwmatcher-jquery.js
+747 silly gunzTarPerm extractEntry src/modules/nwmatcher-pseudos.js
+748 silly gunzTarPerm extractEntry src/modules/nwmatcher-shortcuts.js
+749 silly gunzTarPerm extractEntry src/modules/nwmatcher-traversal.js
+750 silly gunzTarPerm extractEntry src/modules/nwmatcher-webforms.js
+751 silly gunzTarPerm extractEntry LICENSE
+752 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+753 silly gunzTarPerm extractEntry lib/CSSStyleDeclaration.js
+754 silly gunzTarPerm extractEntry binding.gyp
+755 silly gunzTarPerm extractEntry changelog
+756 silly gunzTarPerm extractEntry lib/CSSKeyframesRule.js
+757 silly gunzTarPerm extractEntry lib/CSSMediaRule.js
+758 silly gunzTarPerm extractEntry index.js
+759 silly gunzTarPerm extractEntry request.js
+760 silly gunzTarPerm extractEntry lib/parsers.js
+761 silly gunzTarPerm extractEntry LICENSE.txt
+762 silly gunzTarPerm extractEntry test/contextify.js
+763 silly gunzTarPerm extractEntry lib/css3-properties/borderImage.js
+764 silly gunzTarPerm extractEntry utils_example.js
+765 silly gunzTarPerm extractEntry json2.js
+766 silly gunzTarPerm extractEntry runtests.js
+767 silly gunzTarPerm extractEntry runtests.min.js
+768 silly gunzTarPerm extractEntry CHANGELOG
+769 silly gunzTarPerm extractEntry runtests.min.html
+770 silly gunzTarPerm extractEntry lib/htmlparser.js
+771 silly gunzTarPerm extractEntry lib/htmlparser.min.js
+772 silly gunzTarPerm extractEntry lib/node-htmlparser.js
+773 silly gunzTarPerm extractEntry lib/node-htmlparser.min.js
+774 silly gunzTarPerm extractEntry tests/01-basic.js
+775 silly gunzTarPerm extractEntry tests/08-extra_spaces_in_tag.js
+776 silly gunzTarPerm extractEntry tests/09-unquoted_attrib.js
+777 silly gunzTarPerm extractEntry tests/10-singular_attribute.js
+778 silly gunzTarPerm extractEntry tests/11-text_outside_tags.js
+779 silly gunzTarPerm extractEntry tests/07-unescaped_in_style.js
+780 silly gunzTarPerm extractEntry tests/13-comment_in_text.js
+781 silly gunzTarPerm extractEntry tests/14-comment_in_text_in_script.js
+782 silly gunzTarPerm extractEntry tests/15-non-verbose.js
+783 silly gunzTarPerm extractEntry tests/16-ignore_whitespace.js
+784 silly gunzTarPerm extractEntry tests/17-xml_namespace.js
+785 silly gunzTarPerm extractEntry tests/06-comment_in_script.js
+786 silly gunzTarPerm extractEntry tests/18-enforce_empty_tags.js
+787 silly gunzTarPerm extractEntry tests/05-tags_in_comment.js
+788 silly gunzTarPerm extractEntry tests/19-ignore_empty_tags.js
+789 silly gunzTarPerm extractEntry tests/04-unescaped_in_script.js
+790 silly gunzTarPerm extractEntry tests/20-rss.js
+791 silly gunzTarPerm extractEntry tests/03-single_tag_2.js
+792 silly gunzTarPerm extractEntry tests/21-atom.js
+793 silly gunzTarPerm extractEntry tests/02-single_tag_1.js
+794 silly gunzTarPerm extractEntry tests/22-position_data.js
+795 silly gunzTarPerm extractEntry tests/12-text_only.js
+796 silly gunzTarPerm extractEntry runtests.html
+797 silly gunzTarPerm extractEntry lib/CSSRule.js
+798 silly gunzTarPerm extractEntry lib/CSSImportRule.js
+799 silly gunzTarPerm extractEntry lib/css3-properties/borderImageOutset.js
+800 silly gunzTarPerm extractEntry lib/css3-properties/borderImageRepeat.js
+801 silly gunzTarPerm extractEntry wscript
+802 silly gunzTarPerm extractEntry lib/CSSStyleRule.js
+803 silly gunzTarPerm extractEntry lib/css3-properties/borderImageSlice.js
+804 silly gunzTarPerm extractEntry lib/css3-properties/borderImageSource.js
+805 silly gunzTarPerm extractEntry src/contextify.cc
+806 silly gunzTarPerm extractEntry lib/contextify.js
+807 silly gunzTarPerm extractEntry lib/CSSStyleSheet.js
+808 silly gunzTarPerm extractEntry lib/index.js
+809 silly gunzTarPerm extractEntry .travis.yml
+810 silly gunzTarPerm extractEntry CHANGELOG.md
+811 silly gunzTarPerm extractEntry lib/MediaList.js
+812 silly gunzTarPerm extractEntry lib/parse.js
+813 silly gunzTarPerm extractEntry lib/css3-properties/borderImageWidth.js
+814 silly gunzTarPerm extractEntry lib/properties/alignmentBaseline.js
+815 silly gunzTarPerm extractEntry lib/CSSFontFaceRule.js
+816 silly gunzTarPerm extractEntry lib/StyleSheet.js
+817 silly gunzTarPerm extractEntry lib/CSSStyleDeclaration.js
+818 silly gunzTarPerm extractEntry README.mdown
+819 silly gunzTarPerm extractEntry lib/cookies.js
+820 silly gunzTarPerm extractEntry lib/copy.js
+821 silly gunzTarPerm extractEntry lib/debug.js
+822 silly gunzTarPerm extractEntry lib/getSafe.js
+823 silly gunzTarPerm extractEntry lib/properties/unicodeBidi.js
+824 silly gunzTarPerm extractEntry lib/properties/unicodeRange.js
+825 silly gunzTarPerm extractEntry lib/properties/vectorEffect.js
+826 silly gunzTarPerm extractEntry lib/properties/verticalAlign.js
+827 silly gunzTarPerm extractEntry lib/properties/top.js
+828 silly gunzTarPerm extractEntry lib/properties/voiceFamily.js
+829 silly gunzTarPerm extractEntry lib/properties/volume.js
+830 silly gunzTarPerm extractEntry lib/properties/webkitAnimation.js
+831 silly gunzTarPerm extractEntry lib/properties/webkitAnimationDelay.js
+832 silly gunzTarPerm extractEntry lib/properties/webkitAnimationDirection.js
+833 silly gunzTarPerm extractEntry lib/properties/textUnderlineWidth.js
+834 silly gunzTarPerm extractEntry lib/properties/webkitAnimationDuration.js
+835 silly gunzTarPerm extractEntry lib/properties/textUnderlineStyle.js
+836 silly gunzTarPerm extractEntry lib/properties/webkitAnimationFillMode.js
+837 silly gunzTarPerm extractEntry lib/properties/textUnderlineMode.js
+838 silly gunzTarPerm extractEntry lib/properties/webkitAnimationIterationCount.js
+839 silly lockFile b5e7908c-es-jsdom-node-modules-contextify tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify
+840 silly lockFile b5e7908c-es-jsdom-node-modules-contextify tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify
+841 silly lockFile d2679038-npm-contextify-0-1-8-package-tgz tar:///Users/caly/.npm/contextify/0.1.8/package.tgz
+842 silly lockFile d2679038-npm-contextify-0-1-8-package-tgz tar:///Users/caly/.npm/contextify/0.1.8/package.tgz
+843 info preinstall contextify@0.1.8
+844 silly gunzTarPerm extractEntry lib/properties/textUnderlineColor.js
+845 silly gunzTarPerm extractEntry lib/properties/webkitAnimationName.js
+846 verbose readDependencies using package.json deps
+847 verbose readDependencies using package.json deps
+848 verbose cache add [ 'bindings@*', null ]
+849 verbose cache add name=undefined spec="bindings@*" args=["bindings@*",null]
+850 verbose parsed url { protocol: null,
+850 verbose parsed url   slashes: null,
+850 verbose parsed url   auth: null,
+850 verbose parsed url   host: null,
+850 verbose parsed url   port: null,
+850 verbose parsed url   hostname: null,
+850 verbose parsed url   hash: null,
+850 verbose parsed url   search: null,
+850 verbose parsed url   query: null,
+850 verbose parsed url   pathname: 'bindings@*',
+850 verbose parsed url   path: 'bindings@*',
+850 verbose parsed url   href: 'bindings@*' }
+851 verbose cache add [ 'nan@~1.0.0', null ]
+852 verbose cache add name=undefined spec="nan@~1.0.0" args=["nan@~1.0.0",null]
+853 verbose parsed url { protocol: null,
+853 verbose parsed url   slashes: null,
+853 verbose parsed url   auth: null,
+853 verbose parsed url   host: null,
+853 verbose parsed url   port: null,
+853 verbose parsed url   hostname: null,
+853 verbose parsed url   hash: null,
+853 verbose parsed url   search: null,
+853 verbose parsed url   query: null,
+853 verbose parsed url   pathname: 'nan@~1.0.0',
+853 verbose parsed url   path: 'nan@~1.0.0',
+853 verbose parsed url   href: 'nan@~1.0.0' }
+854 verbose cache add name="bindings" spec="*" args=["bindings","*"]
+855 verbose parsed url { protocol: null,
+855 verbose parsed url   slashes: null,
+855 verbose parsed url   auth: null,
+855 verbose parsed url   host: null,
+855 verbose parsed url   port: null,
+855 verbose parsed url   hostname: null,
+855 verbose parsed url   hash: null,
+855 verbose parsed url   search: null,
+855 verbose parsed url   query: null,
+855 verbose parsed url   pathname: '*',
+855 verbose parsed url   path: '*',
+855 verbose parsed url   href: '*' }
+856 verbose addNamed [ 'bindings', '*' ]
+857 verbose addNamed [ null, '*' ]
+858 silly lockFile a3858fc2-bindings bindings@*
+859 verbose lock bindings@* /Users/caly/.npm/a3858fc2-bindings.lock
+860 verbose cache add name="nan" spec="~1.0.0" args=["nan","~1.0.0"]
+861 verbose parsed url { protocol: null,
+861 verbose parsed url   slashes: null,
+861 verbose parsed url   auth: null,
+861 verbose parsed url   host: null,
+861 verbose parsed url   port: null,
+861 verbose parsed url   hostname: null,
+861 verbose parsed url   hash: null,
+861 verbose parsed url   search: null,
+861 verbose parsed url   query: null,
+861 verbose parsed url   pathname: '~1.0.0',
+861 verbose parsed url   path: '~1.0.0',
+861 verbose parsed url   href: '~1.0.0' }
+862 verbose addNamed [ 'nan', '~1.0.0' ]
+863 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+864 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+865 verbose lock nan@~1.0.0 /Users/caly/.npm/66a60b03-nan-1-0-0.lock
+866 silly gunzTarPerm extractEntry lib/properties/textUnderline.js
+867 silly gunzTarPerm extractEntry lib/properties/webkitAnimationPlayState.js
+868 silly addNameRange { name: 'bindings', range: '*', hasData: false }
+869 silly addNameRange { name: 'nan', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+870 verbose url raw bindings
+871 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+872 verbose url resolved https://registry.npmjs.org/bindings
+873 info trying registry request attempt 1 at 19:15:18
+874 http GET https://registry.npmjs.org/bindings
+875 silly gunzTarPerm extractEntry lib/properties/textTransform.js
+876 silly gunzTarPerm extractEntry lib/properties/webkitAnimationTimingFunction.js
+877 silly gunzTarPerm extractEntry lib/optional.js
+878 silly gunzTarPerm extractEntry lib/properties/textShadow.js
+879 silly gunzTarPerm extractEntry lib/properties/webkitAppearance.js
+880 silly gunzTarPerm extractEntry lib/properties/textRendering.js
+881 silly gunzTarPerm extractEntry lib/properties/webkitAspectRatio.js
+882 silly gunzTarPerm extractEntry lib/properties/textOverlineWidth.js
+883 silly gunzTarPerm extractEntry lib/properties/webkitBackfaceVisibility.js
+884 verbose url raw nan
+885 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+886 verbose url resolved https://registry.npmjs.org/nan
+887 info trying registry request attempt 1 at 19:15:18
+888 verbose etag "1X5FH8LHOK49XYDIGDRRML4G5"
+889 http GET https://registry.npmjs.org/nan
+890 silly lockFile c76c0796-modules-jsdom-node-modules-cssom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom
+891 silly lockFile c76c0796-modules-jsdom-node-modules-cssom tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom
+892 silly lockFile 97cba3aa-caly-npm-cssom-0-2-5-package-tgz tar:///Users/caly/.npm/cssom/0.2.5/package.tgz
+893 silly lockFile 97cba3aa-caly-npm-cssom-0-2-5-package-tgz tar:///Users/caly/.npm/cssom/0.2.5/package.tgz
+894 info preinstall cssom@0.2.5
+895 silly gunzTarPerm extractEntry lib/properties/textOverlineStyle.js
+896 silly gunzTarPerm extractEntry lib/properties/webkitBackgroundClip.js
+897 verbose readDependencies using package.json deps
+898 verbose readDependencies using package.json deps
+899 silly resolved []
+900 verbose about to build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom
+901 info build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/cssom
+902 verbose linkStuff [ false,
+902 verbose linkStuff   false,
+902 verbose linkStuff   false,
+902 verbose linkStuff   '/Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules' ]
+903 info linkStuff cssom@0.2.5
+904 verbose linkBins cssom@0.2.5
+905 verbose linkMans cssom@0.2.5
+906 verbose rebuildBundles cssom@0.2.5
+907 info install cssom@0.2.5
+908 info postinstall cssom@0.2.5
+909 silly gunzTarPerm extractEntry lib/properties/textOverlineMode.js
+910 silly gunzTarPerm extractEntry lib/properties/webkitBackgroundComposite.js
+911 silly gunzTarPerm extractEntry lib/properties/textOverlineColor.js
+912 silly gunzTarPerm extractEntry lib/properties/webkitBackgroundOrigin.js
+913 silly gunzTarPerm extractEntry lib/properties/textOverline.js
+914 silly gunzTarPerm extractEntry lib/properties/webkitBackgroundSize.js
+915 silly gunzTarPerm extractEntry lib/properties/textOverflow.js
+916 silly gunzTarPerm extractEntry lib/properties/webkitBorderAfter.js
+917 silly gunzTarPerm extractEntry lib/properties/textLineThroughWidth.js
+918 silly gunzTarPerm extractEntry lib/properties/webkitBorderAfterColor.js
+919 silly gunzTarPerm extractEntry lib/properties/textLineThroughStyle.js
+920 silly gunzTarPerm extractEntry lib/properties/webkitBorderAfterStyle.js
+921 silly gunzTarPerm extractEntry lib/properties/textLineThroughMode.js
+922 silly gunzTarPerm extractEntry lib/properties/webkitBorderAfterWidth.js
+923 silly gunzTarPerm extractEntry lib/properties/textLineThroughColor.js
+924 silly gunzTarPerm extractEntry lib/properties/webkitBorderBefore.js
+925 silly lockFile a1b09ed6-dules-jsdom-node-modules-request tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/request
+926 silly lockFile a1b09ed6-dules-jsdom-node-modules-request tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/request
+927 silly lockFile c4185444-y-npm-request-2-37-0-package-tgz tar:///Users/caly/.npm/request/2.37.0/package.tgz
+928 silly lockFile c4185444-y-npm-request-2-37-0-package-tgz tar:///Users/caly/.npm/request/2.37.0/package.tgz
+929 silly gunzTarPerm extractEntry lib/properties/textLineThrough.js
+930 silly gunzTarPerm extractEntry lib/properties/webkitBorderBeforeColor.js
+931 info preinstall request@2.37.0
+932 verbose readDependencies using package.json deps
+933 verbose readDependencies using package.json deps
+934 silly gunzTarPerm extractEntry lib/properties/textIndent.js
+935 silly gunzTarPerm extractEntry lib/properties/webkitBorderBeforeStyle.js
+936 verbose cache add [ 'qs@~0.6.0', null ]
+937 verbose cache add name=undefined spec="qs@~0.6.0" args=["qs@~0.6.0",null]
+938 verbose parsed url { protocol: null,
+938 verbose parsed url   slashes: null,
+938 verbose parsed url   auth: null,
+938 verbose parsed url   host: null,
+938 verbose parsed url   port: null,
+938 verbose parsed url   hostname: null,
+938 verbose parsed url   hash: null,
+938 verbose parsed url   search: null,
+938 verbose parsed url   query: null,
+938 verbose parsed url   pathname: 'qs@~0.6.0',
+938 verbose parsed url   path: 'qs@~0.6.0',
+938 verbose parsed url   href: 'qs@~0.6.0' }
+939 verbose cache add [ 'json-stringify-safe@~5.0.0', null ]
+940 verbose cache add name=undefined spec="json-stringify-safe@~5.0.0" args=["json-stringify-safe@~5.0.0",null]
+941 verbose parsed url { protocol: null,
+941 verbose parsed url   slashes: null,
+941 verbose parsed url   auth: null,
+941 verbose parsed url   host: null,
+941 verbose parsed url   port: null,
+941 verbose parsed url   hostname: null,
+941 verbose parsed url   hash: null,
+941 verbose parsed url   search: null,
+941 verbose parsed url   query: null,
+941 verbose parsed url   pathname: 'json-stringify-safe@~5.0.0',
+941 verbose parsed url   path: 'json-stringify-safe@~5.0.0',
+941 verbose parsed url   href: 'json-stringify-safe@~5.0.0' }
+942 verbose cache add name="qs" spec="~0.6.0" args=["qs","~0.6.0"]
+943 verbose parsed url { protocol: null,
+943 verbose parsed url   slashes: null,
+943 verbose parsed url   auth: null,
+943 verbose parsed url   host: null,
+943 verbose parsed url   port: null,
+943 verbose parsed url   hostname: null,
+943 verbose parsed url   hash: null,
+943 verbose parsed url   search: null,
+943 verbose parsed url   query: null,
+943 verbose parsed url   pathname: '~0.6.0',
+943 verbose parsed url   path: '~0.6.0',
+943 verbose parsed url   href: '~0.6.0' }
+944 verbose addNamed [ 'qs', '~0.6.0' ]
+945 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+946 silly lockFile 222bee9e-qs-0-6-0 qs@~0.6.0
+947 verbose lock qs@~0.6.0 /Users/caly/.npm/222bee9e-qs-0-6-0.lock
+948 verbose cache add [ 'mime-types@~1.0.1', null ]
+949 verbose cache add name=undefined spec="mime-types@~1.0.1" args=["mime-types@~1.0.1",null]
+950 verbose parsed url { protocol: null,
+950 verbose parsed url   slashes: null,
+950 verbose parsed url   auth: null,
+950 verbose parsed url   host: null,
+950 verbose parsed url   port: null,
+950 verbose parsed url   hostname: null,
+950 verbose parsed url   hash: null,
+950 verbose parsed url   search: null,
+950 verbose parsed url   query: null,
+950 verbose parsed url   pathname: 'mime-types@~1.0.1',
+950 verbose parsed url   path: 'mime-types@~1.0.1',
+950 verbose parsed url   href: 'mime-types@~1.0.1' }
+951 verbose cache add name="json-stringify-safe" spec="~5.0.0" args=["json-stringify-safe","~5.0.0"]
+952 verbose parsed url { protocol: null,
+952 verbose parsed url   slashes: null,
+952 verbose parsed url   auth: null,
+952 verbose parsed url   host: null,
+952 verbose parsed url   port: null,
+952 verbose parsed url   hostname: null,
+952 verbose parsed url   hash: null,
+952 verbose parsed url   search: null,
+952 verbose parsed url   query: null,
+952 verbose parsed url   pathname: '~5.0.0',
+952 verbose parsed url   path: '~5.0.0',
+952 verbose parsed url   href: '~5.0.0' }
+953 verbose addNamed [ 'json-stringify-safe', '~5.0.0' ]
+954 verbose addNamed [ null, '>=5.0.0-0 <5.1.0-0' ]
+955 silly lockFile 063b1a01-json-stringify-safe-5-0-0 json-stringify-safe@~5.0.0
+956 verbose lock json-stringify-safe@~5.0.0 /Users/caly/.npm/063b1a01-json-stringify-safe-5-0-0.lock
+957 verbose cache add [ 'forever-agent@~0.5.0', null ]
+958 verbose cache add name=undefined spec="forever-agent@~0.5.0" args=["forever-agent@~0.5.0",null]
+959 verbose parsed url { protocol: null,
+959 verbose parsed url   slashes: null,
+959 verbose parsed url   auth: null,
+959 verbose parsed url   host: null,
+959 verbose parsed url   port: null,
+959 verbose parsed url   hostname: null,
+959 verbose parsed url   hash: null,
+959 verbose parsed url   search: null,
+959 verbose parsed url   query: null,
+959 verbose parsed url   pathname: 'forever-agent@~0.5.0',
+959 verbose parsed url   path: 'forever-agent@~0.5.0',
+959 verbose parsed url   href: 'forever-agent@~0.5.0' }
+960 verbose cache add name="mime-types" spec="~1.0.1" args=["mime-types","~1.0.1"]
+961 verbose parsed url { protocol: null,
+961 verbose parsed url   slashes: null,
+961 verbose parsed url   auth: null,
+961 verbose parsed url   host: null,
+961 verbose parsed url   port: null,
+961 verbose parsed url   hostname: null,
+961 verbose parsed url   hash: null,
+961 verbose parsed url   search: null,
+961 verbose parsed url   query: null,
+961 verbose parsed url   pathname: '~1.0.1',
+961 verbose parsed url   path: '~1.0.1',
+961 verbose parsed url   href: '~1.0.1' }
+962 verbose addNamed [ 'mime-types', '~1.0.1' ]
+963 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+964 silly lockFile c0ad19ba-mime-types-1-0-1 mime-types@~1.0.1
+965 verbose lock mime-types@~1.0.1 /Users/caly/.npm/c0ad19ba-mime-types-1-0-1.lock
+966 verbose cache add [ 'node-uuid@~1.4.0', null ]
+967 verbose cache add name=undefined spec="node-uuid@~1.4.0" args=["node-uuid@~1.4.0",null]
+968 verbose parsed url { protocol: null,
+968 verbose parsed url   slashes: null,
+968 verbose parsed url   auth: null,
+968 verbose parsed url   host: null,
+968 verbose parsed url   port: null,
+968 verbose parsed url   hostname: null,
+968 verbose parsed url   hash: null,
+968 verbose parsed url   search: null,
+968 verbose parsed url   query: null,
+968 verbose parsed url   pathname: 'node-uuid@~1.4.0',
+968 verbose parsed url   path: 'node-uuid@~1.4.0',
+968 verbose parsed url   href: 'node-uuid@~1.4.0' }
+969 verbose cache add name="forever-agent" spec="~0.5.0" args=["forever-agent","~0.5.0"]
+970 verbose parsed url { protocol: null,
+970 verbose parsed url   slashes: null,
+970 verbose parsed url   auth: null,
+970 verbose parsed url   host: null,
+970 verbose parsed url   port: null,
+970 verbose parsed url   hostname: null,
+970 verbose parsed url   hash: null,
+970 verbose parsed url   search: null,
+970 verbose parsed url   query: null,
+970 verbose parsed url   pathname: '~0.5.0',
+970 verbose parsed url   path: '~0.5.0',
+970 verbose parsed url   href: '~0.5.0' }
+971 verbose addNamed [ 'forever-agent', '~0.5.0' ]
+972 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+973 silly lockFile fa463915-forever-agent-0-5-0 forever-agent@~0.5.0
+974 verbose lock forever-agent@~0.5.0 /Users/caly/.npm/fa463915-forever-agent-0-5-0.lock
+975 silly addNameRange { name: 'qs', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+976 silly addNameRange { name: 'json-stringify-safe',
+976 silly addNameRange   range: '>=5.0.0-0 <5.1.0-0',
+976 silly addNameRange   hasData: false }
+977 verbose cache add [ 'tough-cookie@>=0.12.0', null ]
+978 verbose cache add name=undefined spec="tough-cookie@>=0.12.0" args=["tough-cookie@>=0.12.0",null]
+979 verbose parsed url { protocol: null,
+979 verbose parsed url   slashes: null,
+979 verbose parsed url   auth: null,
+979 verbose parsed url   host: null,
+979 verbose parsed url   port: null,
+979 verbose parsed url   hostname: null,
+979 verbose parsed url   hash: null,
+979 verbose parsed url   search: null,
+979 verbose parsed url   query: null,
+979 verbose parsed url   pathname: 'tough-cookie@%3E=0.12.0',
+979 verbose parsed url   path: 'tough-cookie@%3E=0.12.0',
+979 verbose parsed url   href: 'tough-cookie@%3E=0.12.0' }
+980 verbose cache add [ 'form-data@~0.1.0', null ]
+981 verbose cache add name=undefined spec="form-data@~0.1.0" args=["form-data@~0.1.0",null]
+982 verbose parsed url { protocol: null,
+982 verbose parsed url   slashes: null,
+982 verbose parsed url   auth: null,
+982 verbose parsed url   host: null,
+982 verbose parsed url   port: null,
+982 verbose parsed url   hostname: null,
+982 verbose parsed url   hash: null,
+982 verbose parsed url   search: null,
+982 verbose parsed url   query: null,
+982 verbose parsed url   pathname: 'form-data@~0.1.0',
+982 verbose parsed url   path: 'form-data@~0.1.0',
+982 verbose parsed url   href: 'form-data@~0.1.0' }
+983 verbose cache add [ 'tunnel-agent@~0.4.0', null ]
+984 verbose cache add name=undefined spec="tunnel-agent@~0.4.0" args=["tunnel-agent@~0.4.0",null]
+985 verbose parsed url { protocol: null,
+985 verbose parsed url   slashes: null,
+985 verbose parsed url   auth: null,
+985 verbose parsed url   host: null,
+985 verbose parsed url   port: null,
+985 verbose parsed url   hostname: null,
+985 verbose parsed url   hash: null,
+985 verbose parsed url   search: null,
+985 verbose parsed url   query: null,
+985 verbose parsed url   pathname: 'tunnel-agent@~0.4.0',
+985 verbose parsed url   path: 'tunnel-agent@~0.4.0',
+985 verbose parsed url   href: 'tunnel-agent@~0.4.0' }
+986 verbose cache add [ 'http-signature@~0.10.0', null ]
+987 verbose cache add name=undefined spec="http-signature@~0.10.0" args=["http-signature@~0.10.0",null]
+988 verbose parsed url { protocol: null,
+988 verbose parsed url   slashes: null,
+988 verbose parsed url   auth: null,
+988 verbose parsed url   host: null,
+988 verbose parsed url   port: null,
+988 verbose parsed url   hostname: null,
+988 verbose parsed url   hash: null,
+988 verbose parsed url   search: null,
+988 verbose parsed url   query: null,
+988 verbose parsed url   pathname: 'http-signature@~0.10.0',
+988 verbose parsed url   path: 'http-signature@~0.10.0',
+988 verbose parsed url   href: 'http-signature@~0.10.0' }
+989 verbose cache add [ 'oauth-sign@~0.3.0', null ]
+990 verbose cache add name=undefined spec="oauth-sign@~0.3.0" args=["oauth-sign@~0.3.0",null]
+991 verbose parsed url { protocol: null,
+991 verbose parsed url   slashes: null,
+991 verbose parsed url   auth: null,
+991 verbose parsed url   host: null,
+991 verbose parsed url   port: null,
+991 verbose parsed url   hostname: null,
+991 verbose parsed url   hash: null,
+991 verbose parsed url   search: null,
+991 verbose parsed url   query: null,
+991 verbose parsed url   pathname: 'oauth-sign@~0.3.0',
+991 verbose parsed url   path: 'oauth-sign@~0.3.0',
+991 verbose parsed url   href: 'oauth-sign@~0.3.0' }
+992 verbose cache add [ 'hawk@1.1.1', null ]
+993 verbose cache add name=undefined spec="hawk@1.1.1" args=["hawk@1.1.1",null]
+994 verbose parsed url { protocol: null,
+994 verbose parsed url   slashes: null,
+994 verbose parsed url   auth: null,
+994 verbose parsed url   host: null,
+994 verbose parsed url   port: null,
+994 verbose parsed url   hostname: null,
+994 verbose parsed url   hash: null,
+994 verbose parsed url   search: null,
+994 verbose parsed url   query: null,
+994 verbose parsed url   pathname: 'hawk@1.1.1',
+994 verbose parsed url   path: 'hawk@1.1.1',
+994 verbose parsed url   href: 'hawk@1.1.1' }
+995 verbose cache add [ 'aws-sign2@~0.5.0', null ]
+996 verbose cache add name=undefined spec="aws-sign2@~0.5.0" args=["aws-sign2@~0.5.0",null]
+997 verbose parsed url { protocol: null,
+997 verbose parsed url   slashes: null,
+997 verbose parsed url   auth: null,
+997 verbose parsed url   host: null,
+997 verbose parsed url   port: null,
+997 verbose parsed url   hostname: null,
+997 verbose parsed url   hash: null,
+997 verbose parsed url   search: null,
+997 verbose parsed url   query: null,
+997 verbose parsed url   pathname: 'aws-sign2@~0.5.0',
+997 verbose parsed url   path: 'aws-sign2@~0.5.0',
+997 verbose parsed url   href: 'aws-sign2@~0.5.0' }
+998 verbose cache add name="node-uuid" spec="~1.4.0" args=["node-uuid","~1.4.0"]
+999 verbose parsed url { protocol: null,
+999 verbose parsed url   slashes: null,
+999 verbose parsed url   auth: null,
+999 verbose parsed url   host: null,
+999 verbose parsed url   port: null,
+999 verbose parsed url   hostname: null,
+999 verbose parsed url   hash: null,
+999 verbose parsed url   search: null,
+999 verbose parsed url   query: null,
+999 verbose parsed url   pathname: '~1.4.0',
+999 verbose parsed url   path: '~1.4.0',
+999 verbose parsed url   href: '~1.4.0' }
+1000 verbose addNamed [ 'node-uuid', '~1.4.0' ]
+1001 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+1002 silly lockFile f662725f-node-uuid-1-4-0 node-uuid@~1.4.0
+1003 verbose lock node-uuid@~1.4.0 /Users/caly/.npm/f662725f-node-uuid-1-4-0.lock
+1004 silly addNameRange { name: 'mime-types',
+1004 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+1004 silly addNameRange   hasData: false }
+1005 verbose cache add name="tough-cookie" spec=">=0.12.0" args=["tough-cookie",">=0.12.0"]
+1006 verbose parsed url { protocol: null,
+1006 verbose parsed url   slashes: null,
+1006 verbose parsed url   auth: null,
+1006 verbose parsed url   host: null,
+1006 verbose parsed url   port: null,
+1006 verbose parsed url   hostname: null,
+1006 verbose parsed url   hash: null,
+1006 verbose parsed url   search: null,
+1006 verbose parsed url   query: null,
+1006 verbose parsed url   pathname: '%3E=0.12.0',
+1006 verbose parsed url   path: '%3E=0.12.0',
+1006 verbose parsed url   href: '%3E=0.12.0' }
+1007 verbose addNamed [ 'tough-cookie', '>=0.12.0' ]
+1008 verbose addNamed [ null, '>=0.12.0' ]
+1009 silly lockFile 66c18ba7-tough-cookie-0-12-0 tough-cookie@>=0.12.0
+1010 verbose lock tough-cookie@>=0.12.0 /Users/caly/.npm/66c18ba7-tough-cookie-0-12-0.lock
+1011 verbose cache add name="form-data" spec="~0.1.0" args=["form-data","~0.1.0"]
+1012 verbose parsed url { protocol: null,
+1012 verbose parsed url   slashes: null,
+1012 verbose parsed url   auth: null,
+1012 verbose parsed url   host: null,
+1012 verbose parsed url   port: null,
+1012 verbose parsed url   hostname: null,
+1012 verbose parsed url   hash: null,
+1012 verbose parsed url   search: null,
+1012 verbose parsed url   query: null,
+1012 verbose parsed url   pathname: '~0.1.0',
+1012 verbose parsed url   path: '~0.1.0',
+1012 verbose parsed url   href: '~0.1.0' }
+1013 verbose addNamed [ 'form-data', '~0.1.0' ]
+1014 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+1015 silly lockFile 26aa13f4-form-data-0-1-0 form-data@~0.1.0
+1016 verbose lock form-data@~0.1.0 /Users/caly/.npm/26aa13f4-form-data-0-1-0.lock
+1017 verbose cache add name="tunnel-agent" spec="~0.4.0" args=["tunnel-agent","~0.4.0"]
+1018 verbose parsed url { protocol: null,
+1018 verbose parsed url   slashes: null,
+1018 verbose parsed url   auth: null,
+1018 verbose parsed url   host: null,
+1018 verbose parsed url   port: null,
+1018 verbose parsed url   hostname: null,
+1018 verbose parsed url   hash: null,
+1018 verbose parsed url   search: null,
+1018 verbose parsed url   query: null,
+1018 verbose parsed url   pathname: '~0.4.0',
+1018 verbose parsed url   path: '~0.4.0',
+1018 verbose parsed url   href: '~0.4.0' }
+1019 verbose addNamed [ 'tunnel-agent', '~0.4.0' ]
+1020 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+1021 silly lockFile 2550750e-tunnel-agent-0-4-0 tunnel-agent@~0.4.0
+1022 verbose lock tunnel-agent@~0.4.0 /Users/caly/.npm/2550750e-tunnel-agent-0-4-0.lock
+1023 verbose cache add name="http-signature" spec="~0.10.0" args=["http-signature","~0.10.0"]
+1024 verbose parsed url { protocol: null,
+1024 verbose parsed url   slashes: null,
+1024 verbose parsed url   auth: null,
+1024 verbose parsed url   host: null,
+1024 verbose parsed url   port: null,
+1024 verbose parsed url   hostname: null,
+1024 verbose parsed url   hash: null,
+1024 verbose parsed url   search: null,
+1024 verbose parsed url   query: null,
+1024 verbose parsed url   pathname: '~0.10.0',
+1024 verbose parsed url   path: '~0.10.0',
+1024 verbose parsed url   href: '~0.10.0' }
+1025 verbose addNamed [ 'http-signature', '~0.10.0' ]
+1026 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+1027 silly lockFile 8170f292-http-signature-0-10-0 http-signature@~0.10.0
+1028 verbose lock http-signature@~0.10.0 /Users/caly/.npm/8170f292-http-signature-0-10-0.lock
+1029 verbose cache add name="oauth-sign" spec="~0.3.0" args=["oauth-sign","~0.3.0"]
+1030 verbose parsed url { protocol: null,
+1030 verbose parsed url   slashes: null,
+1030 verbose parsed url   auth: null,
+1030 verbose parsed url   host: null,
+1030 verbose parsed url   port: null,
+1030 verbose parsed url   hostname: null,
+1030 verbose parsed url   hash: null,
+1030 verbose parsed url   search: null,
+1030 verbose parsed url   query: null,
+1030 verbose parsed url   pathname: '~0.3.0',
+1030 verbose parsed url   path: '~0.3.0',
+1030 verbose parsed url   href: '~0.3.0' }
+1031 verbose addNamed [ 'oauth-sign', '~0.3.0' ]
+1032 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+1033 silly lockFile 7fb5c7f1-oauth-sign-0-3-0 oauth-sign@~0.3.0
+1034 verbose lock oauth-sign@~0.3.0 /Users/caly/.npm/7fb5c7f1-oauth-sign-0-3-0.lock
+1035 verbose cache add name="hawk" spec="1.1.1" args=["hawk","1.1.1"]
+1036 verbose parsed url { protocol: null,
+1036 verbose parsed url   slashes: null,
+1036 verbose parsed url   auth: null,
+1036 verbose parsed url   host: null,
+1036 verbose parsed url   port: null,
+1036 verbose parsed url   hostname: null,
+1036 verbose parsed url   hash: null,
+1036 verbose parsed url   search: null,
+1036 verbose parsed url   query: null,
+1036 verbose parsed url   pathname: '1.1.1',
+1036 verbose parsed url   path: '1.1.1',
+1036 verbose parsed url   href: '1.1.1' }
+1037 verbose addNamed [ 'hawk', '1.1.1' ]
+1038 verbose addNamed [ '1.1.1', '1.1.1' ]
+1039 silly lockFile 61c917cf-hawk-1-1-1 hawk@1.1.1
+1040 verbose lock hawk@1.1.1 /Users/caly/.npm/61c917cf-hawk-1-1-1.lock
+1041 verbose cache add name="aws-sign2" spec="~0.5.0" args=["aws-sign2","~0.5.0"]
+1042 verbose parsed url { protocol: null,
+1042 verbose parsed url   slashes: null,
+1042 verbose parsed url   auth: null,
+1042 verbose parsed url   host: null,
+1042 verbose parsed url   port: null,
+1042 verbose parsed url   hostname: null,
+1042 verbose parsed url   hash: null,
+1042 verbose parsed url   search: null,
+1042 verbose parsed url   query: null,
+1042 verbose parsed url   pathname: '~0.5.0',
+1042 verbose parsed url   path: '~0.5.0',
+1042 verbose parsed url   href: '~0.5.0' }
+1043 verbose addNamed [ 'aws-sign2', '~0.5.0' ]
+1044 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+1045 silly lockFile 82387911-aws-sign2-0-5-0 aws-sign2@~0.5.0
+1046 verbose lock aws-sign2@~0.5.0 /Users/caly/.npm/82387911-aws-sign2-0-5-0.lock
+1047 silly addNameRange { name: 'forever-agent',
+1047 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+1047 silly addNameRange   hasData: false }
+1048 verbose url raw mime-types
+1049 verbose url resolving [ 'https://registry.npmjs.org/', './mime-types' ]
+1050 verbose url resolved https://registry.npmjs.org/mime-types
+1051 info trying registry request attempt 1 at 19:15:18
+1052 http GET https://registry.npmjs.org/mime-types
+1053 silly addNameRange { name: 'node-uuid',
+1053 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+1053 silly addNameRange   hasData: false }
+1054 silly addNameRange { name: 'tough-cookie', range: '>=0.12.0', hasData: false }
+1055 silly addNameRange { name: 'form-data',
+1055 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+1055 silly addNameRange   hasData: false }
+1056 silly addNameRange { name: 'tunnel-agent',
+1056 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1056 silly addNameRange   hasData: false }
+1057 silly addNameRange { name: 'http-signature',
+1057 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+1057 silly addNameRange   hasData: false }
+1058 silly addNameRange { name: 'oauth-sign',
+1058 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+1058 silly addNameRange   hasData: false }
+1059 silly addNameRange { name: 'aws-sign2',
+1059 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+1059 silly addNameRange   hasData: false }
+1060 http 304 https://registry.npmjs.org/nan
+1061 silly registry.get cb [ 304,
+1061 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1061 silly registry.get     server: 'Apache',
+1061 silly registry.get     via: '1.1 varnish',
+1061 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1061 silly registry.get     'cache-control': 'max-age=30',
+1061 silly registry.get     etag: '"1X5FH8LHOK49XYDIGDRRML4G5"',
+1061 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1061 silly registry.get     'x-cache': 'HIT',
+1061 silly registry.get     'x-cache-hits': '1',
+1061 silly registry.get     'x-timer': 'S1404785718.047020,VS0,VE0',
+1061 silly registry.get     vary: 'Accept',
+1061 silly registry.get     'content-length': '0',
+1061 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1061 silly registry.get     connection: 'Keep-Alive' } ]
+1062 verbose etag nan from cache
+1063 silly gunzTarPerm extractEntry lib/properties/textDecoration.js
+1064 silly gunzTarPerm extractEntry lib/properties/webkitBorderBeforeWidth.js
+1065 verbose url raw json-stringify-safe
+1066 verbose url resolving [ 'https://registry.npmjs.org/', './json-stringify-safe' ]
+1067 verbose url resolved https://registry.npmjs.org/json-stringify-safe
+1068 info trying registry request attempt 1 at 19:15:18
+1069 verbose etag "DCHF000C6O2GP81GD95QO2ILB"
+1070 http GET https://registry.npmjs.org/json-stringify-safe
+1071 http 200 https://registry.npmjs.org/bindings
+1072 silly registry.get cb [ 200,
+1072 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1072 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1072 silly registry.get     etag: '"6S7UAGB717AD0Z8AQ1OJ61UW3"',
+1072 silly registry.get     'content-type': 'application/json',
+1072 silly registry.get     'cache-control': 'max-age=30',
+1072 silly registry.get     'content-length': '18313',
+1072 silly registry.get     'accept-ranges': 'bytes',
+1072 silly registry.get     via: '1.1 varnish',
+1072 silly registry.get     age: '527',
+1072 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1072 silly registry.get     'x-cache': 'HIT',
+1072 silly registry.get     'x-cache-hits': '1',
+1072 silly registry.get     'x-timer': 'S1404785718.017210,VS0,VE81',
+1072 silly registry.get     vary: 'Accept',
+1072 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1072 silly registry.get     connection: 'Keep-Alive' } ]
+1073 verbose url raw qs
+1074 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+1075 verbose url resolved https://registry.npmjs.org/qs
+1076 info trying registry request attempt 1 at 19:15:18
+1077 verbose etag "100AZTZO517YIF94ZUODQW0TB"
+1078 http GET https://registry.npmjs.org/qs
+1079 verbose url raw form-data
+1080 verbose url resolving [ 'https://registry.npmjs.org/', './form-data' ]
+1081 verbose url resolved https://registry.npmjs.org/form-data
+1082 info trying registry request attempt 1 at 19:15:18
+1083 verbose etag "7DXTXSDCEIF071ZAQS7WN047R"
+1084 http GET https://registry.npmjs.org/form-data
+1085 verbose url raw forever-agent
+1086 verbose url resolving [ 'https://registry.npmjs.org/', './forever-agent' ]
+1087 verbose url resolved https://registry.npmjs.org/forever-agent
+1088 info trying registry request attempt 1 at 19:15:18
+1089 verbose etag "CYWZJILR3M157HRX9R094YZJP"
+1090 http GET https://registry.npmjs.org/forever-agent
+1091 verbose url raw tunnel-agent
+1092 verbose url resolving [ 'https://registry.npmjs.org/', './tunnel-agent' ]
+1093 verbose url resolved https://registry.npmjs.org/tunnel-agent
+1094 info trying registry request attempt 1 at 19:15:18
+1095 verbose etag "4XEKZRB2KFYOS7X2FPWBM4UTK"
+1096 http GET https://registry.npmjs.org/tunnel-agent
+1097 verbose url raw http-signature
+1098 verbose url resolving [ 'https://registry.npmjs.org/', './http-signature' ]
+1099 verbose url resolved https://registry.npmjs.org/http-signature
+1100 info trying registry request attempt 1 at 19:15:18
+1101 verbose etag "6ZB1ETGRW1IRSY4JIA0Y1E3B2"
+1102 http GET https://registry.npmjs.org/http-signature
+1103 verbose url raw aws-sign2
+1104 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sign2' ]
+1105 verbose url resolved https://registry.npmjs.org/aws-sign2
+1106 info trying registry request attempt 1 at 19:15:18
+1107 verbose etag "5LQVIOJRE8YGQMQ2P04WCC67A"
+1108 http GET https://registry.npmjs.org/aws-sign2
+1109 verbose url raw oauth-sign
+1110 verbose url resolving [ 'https://registry.npmjs.org/', './oauth-sign' ]
+1111 verbose url resolved https://registry.npmjs.org/oauth-sign
+1112 info trying registry request attempt 1 at 19:15:18
+1113 verbose etag "BBEB5VBVQE0G0SOWKWBK6G3CH"
+1114 http GET https://registry.npmjs.org/oauth-sign
+1115 silly addNameRange number 2 { name: 'nan', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+1116 silly addNameRange versions [ 'nan',
+1116 silly addNameRange   [ '0.3.0-wip',
+1116 silly addNameRange     '0.3.0-wip2',
+1116 silly addNameRange     '0.3.0',
+1116 silly addNameRange     '0.3.1',
+1116 silly addNameRange     '0.3.2',
+1116 silly addNameRange     '0.4.0',
+1116 silly addNameRange     '0.4.1',
+1116 silly addNameRange     '0.4.2',
+1116 silly addNameRange     '0.4.3',
+1116 silly addNameRange     '0.4.4',
+1116 silly addNameRange     '0.5.0',
+1116 silly addNameRange     '0.5.1',
+1116 silly addNameRange     '0.5.2',
+1116 silly addNameRange     '0.6.0',
+1116 silly addNameRange     '0.7.0',
+1116 silly addNameRange     '0.7.1',
+1116 silly addNameRange     '0.8.0',
+1116 silly addNameRange     '1.0.0',
+1116 silly addNameRange     '1.1.0',
+1116 silly addNameRange     '1.1.1',
+1116 silly addNameRange     '1.1.2',
+1116 silly addNameRange     '1.2.0' ] ]
+1117 verbose addNamed [ 'nan', '1.0.0' ]
+1118 verbose addNamed [ '1.0.0', '1.0.0' ]
+1119 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+1120 verbose lock nan@1.0.0 /Users/caly/.npm/cc7fa090-nan-1-0-0.lock
+1121 silly gunzTarPerm extractEntry lib/properties/textAnchor.js
+1122 silly gunzTarPerm extractEntry lib/properties/webkitBorderEnd.js
+1123 verbose url raw node-uuid
+1124 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+1125 verbose url resolved https://registry.npmjs.org/node-uuid
+1126 info trying registry request attempt 1 at 19:15:18
+1127 verbose etag "1S3GCF9P64ZACPI5ITM3KIHA6"
+1128 http GET https://registry.npmjs.org/node-uuid
+1129 silly lockFile 31e73d2e-stry-npmjs-org-nan-nan-1-0-0-tgz https://registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1130 verbose lock https://registry.npmjs.org/nan/-/nan-1.0.0.tgz /Users/caly/.npm/31e73d2e-stry-npmjs-org-nan-nan-1-0-0-tgz.lock
+1131 silly addNameRange number 2 { name: 'bindings', range: '*', hasData: true }
+1132 silly addNameRange versions [ 'bindings',
+1132 silly addNameRange   [ '0.0.1',
+1132 silly addNameRange     '0.1.0',
+1132 silly addNameRange     '0.1.1',
+1132 silly addNameRange     '0.2.0',
+1132 silly addNameRange     '0.2.1',
+1132 silly addNameRange     '0.2.2',
+1132 silly addNameRange     '0.2.3',
+1132 silly addNameRange     '0.2.4',
+1132 silly addNameRange     '0.3.0',
+1132 silly addNameRange     '0.4.0',
+1132 silly addNameRange     '1.0.0',
+1132 silly addNameRange     '1.1.0',
+1132 silly addNameRange     '1.1.1',
+1132 silly addNameRange     '1.2.0',
+1132 silly addNameRange     '1.2.1' ] ]
+1133 verbose addNamed [ 'bindings', '1.2.1' ]
+1134 verbose addNamed [ '1.2.1', '1.2.1' ]
+1135 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+1136 verbose lock bindings@1.2.1 /Users/caly/.npm/e9060511-bindings-1-2-1.lock
+1137 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.0.0.tgz',
+1137 verbose addRemoteTarball   'ae24f8850818d662fcab5acf7f3b95bfaa2ccf38' ]
+1138 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1139 verbose lock https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz /Users/caly/.npm/0932abb1--org-bindings-bindings-1-2-1-tgz.lock
+1140 info retry fetch attempt 1 at 19:15:18
+1141 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1142 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+1142 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+1143 silly gunzTarPerm extractEntry lib/properties/textAlign.js
+1144 silly gunzTarPerm extractEntry lib/properties/webkitBorderEndColor.js
+1145 http GET https://registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1146 http 304 https://registry.npmjs.org/json-stringify-safe
+1147 silly registry.get cb [ 304,
+1147 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1147 silly registry.get     server: 'Apache',
+1147 silly registry.get     via: '1.1 varnish',
+1147 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1147 silly registry.get     'cache-control': 'max-age=30',
+1147 silly registry.get     etag: '"DCHF000C6O2GP81GD95QO2ILB"',
+1147 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1147 silly registry.get     'x-cache': 'HIT',
+1147 silly registry.get     'x-cache-hits': '1',
+1147 silly registry.get     'x-timer': 'S1404785718.157449,VS0,VE0',
+1147 silly registry.get     vary: 'Accept',
+1147 silly registry.get     'content-length': '0',
+1147 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1147 silly registry.get     connection: 'Keep-Alive' } ]
+1148 verbose etag json-stringify-safe from cache
+1149 verbose url raw hawk
+1150 verbose url resolving [ 'https://registry.npmjs.org/', './hawk' ]
+1151 verbose url resolved https://registry.npmjs.org/hawk
+1152 info trying registry request attempt 1 at 19:15:18
+1153 verbose etag "8OYGUWEVR2EN7SOD8YZ0D7VKB"
+1154 http GET https://registry.npmjs.org/hawk
+1155 info retry fetch attempt 1 at 19:15:18
+1156 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1157 http GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1158 silly gunzTarPerm extractEntry lib/properties/tableLayout.js
+1159 silly gunzTarPerm extractEntry lib/properties/webkitBorderEndStyle.js
+1160 silly addNameRange number 2 { name: 'json-stringify-safe',
+1160 silly addNameRange   range: '>=5.0.0-0 <5.1.0-0',
+1160 silly addNameRange   hasData: true }
+1161 silly addNameRange versions [ 'json-stringify-safe',
+1161 silly addNameRange   [ '2.0.0', '3.0.0', '4.0.0', '5.0.0' ] ]
+1162 verbose addNamed [ 'json-stringify-safe', '5.0.0' ]
+1163 verbose addNamed [ '5.0.0', '5.0.0' ]
+1164 silly lockFile 1d9ebe76-json-stringify-safe-5-0-0 json-stringify-safe@5.0.0
+1165 verbose lock json-stringify-safe@5.0.0 /Users/caly/.npm/1d9ebe76-json-stringify-safe-5-0-0.lock
+1166 verbose url raw tough-cookie
+1167 verbose url resolving [ 'https://registry.npmjs.org/', './tough-cookie' ]
+1168 verbose url resolved https://registry.npmjs.org/tough-cookie
+1169 info trying registry request attempt 1 at 19:15:18
+1170 verbose etag "1UPI10TCWUXXCJDOICISVEFTA"
+1171 http GET https://registry.npmjs.org/tough-cookie
+1172 http 304 https://registry.npmjs.org/tunnel-agent
+1173 silly registry.get cb [ 304,
+1173 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1173 silly registry.get     server: 'Apache',
+1173 silly registry.get     via: '1.1 varnish',
+1173 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:16 GMT',
+1173 silly registry.get     'cache-control': 'max-age=30',
+1173 silly registry.get     etag: '"4XEKZRB2KFYOS7X2FPWBM4UTK"',
+1173 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1173 silly registry.get     'x-cache': 'HIT',
+1173 silly registry.get     'x-cache-hits': '2',
+1173 silly registry.get     'x-timer': 'S1404785718.178422,VS0,VE0',
+1173 silly registry.get     vary: 'Accept',
+1173 silly registry.get     'content-length': '0',
+1173 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1173 silly registry.get     connection: 'Keep-Alive' } ]
+1174 verbose etag tunnel-agent from cache
+1175 http 200 https://registry.npmjs.org/mime-types
+1176 silly registry.get cb [ 200,
+1176 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1176 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1176 silly registry.get     etag: '"5QTXZZB7EV5DJ86M6R7UF9ER3"',
+1176 silly registry.get     'content-type': 'application/json',
+1176 silly registry.get     'cache-control': 'max-age=30',
+1176 silly registry.get     'content-length': '7240',
+1176 silly registry.get     'accept-ranges': 'bytes',
+1176 silly registry.get     via: '1.1 varnish',
+1176 silly registry.get     age: '185',
+1176 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1176 silly registry.get     'x-cache': 'HIT',
+1176 silly registry.get     'x-cache-hits': '1',
+1176 silly registry.get     'x-timer': 'S1404785718.109021,VS0,VE86',
+1176 silly registry.get     vary: 'Accept',
+1176 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1176 silly registry.get     connection: 'Keep-Alive' } ]
+1177 http 304 https://registry.npmjs.org/http-signature
+1178 silly registry.get cb [ 304,
+1178 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1178 silly registry.get     server: 'Apache',
+1178 silly registry.get     via: '1.1 varnish',
+1178 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1178 silly registry.get     'cache-control': 'max-age=30',
+1178 silly registry.get     etag: '"6ZB1ETGRW1IRSY4JIA0Y1E3B2"',
+1178 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1178 silly registry.get     'x-cache': 'HIT',
+1178 silly registry.get     'x-cache-hits': '1',
+1178 silly registry.get     'x-timer': 'S1404785718.207336,VS0,VE0',
+1178 silly registry.get     vary: 'Accept',
+1178 silly registry.get     'content-length': '0',
+1178 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1178 silly registry.get     connection: 'Keep-Alive' } ]
+1179 verbose etag http-signature from cache
+1180 http 304 https://registry.npmjs.org/aws-sign2
+1181 silly registry.get cb [ 304,
+1181 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1181 silly registry.get     server: 'Apache',
+1181 silly registry.get     via: '1.1 varnish',
+1181 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:16 GMT',
+1181 silly registry.get     'cache-control': 'max-age=30',
+1181 silly registry.get     etag: '"5LQVIOJRE8YGQMQ2P04WCC67A"',
+1181 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1181 silly registry.get     'x-cache': 'HIT',
+1181 silly registry.get     'x-cache-hits': '2',
+1181 silly registry.get     'x-timer': 'S1404785718.236660,VS0,VE0',
+1181 silly registry.get     vary: 'Accept',
+1181 silly registry.get     'content-length': '0',
+1181 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1181 silly registry.get     connection: 'Keep-Alive' } ]
+1182 verbose etag aws-sign2 from cache
+1183 silly gunzTarPerm extractEntry lib/properties/strokeWidth.js
+1184 silly gunzTarPerm extractEntry lib/properties/webkitBorderEndWidth.js
+1185 http 304 https://registry.npmjs.org/oauth-sign
+1186 silly registry.get cb [ 304,
+1186 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1186 silly registry.get     server: 'Apache',
+1186 silly registry.get     via: '1.1 varnish',
+1186 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1186 silly registry.get     'cache-control': 'max-age=30',
+1186 silly registry.get     etag: '"BBEB5VBVQE0G0SOWKWBK6G3CH"',
+1186 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1186 silly registry.get     'x-cache': 'HIT',
+1186 silly registry.get     'x-cache-hits': '1',
+1186 silly registry.get     'x-timer': 'S1404785718.249916,VS0,VE0',
+1186 silly registry.get     vary: 'Accept',
+1186 silly registry.get     'content-length': '0',
+1186 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1186 silly registry.get     connection: 'Keep-Alive' } ]
+1187 verbose etag oauth-sign from cache
+1188 silly addNameRange number 2 { name: 'tunnel-agent',
+1188 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1188 silly addNameRange   hasData: true }
+1189 silly addNameRange versions [ 'tunnel-agent', [ '0.2.0', '0.3.0', '0.4.0' ] ]
+1190 verbose addNamed [ 'tunnel-agent', '0.4.0' ]
+1191 verbose addNamed [ '0.4.0', '0.4.0' ]
+1192 silly lockFile d3ccfadd-tunnel-agent-0-4-0 tunnel-agent@0.4.0
+1193 verbose lock tunnel-agent@0.4.0 /Users/caly/.npm/d3ccfadd-tunnel-agent-0-4-0.lock
+1194 silly addNameRange number 2 { name: 'mime-types',
+1194 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+1194 silly addNameRange   hasData: true }
+1195 silly addNameRange versions [ 'mime-types', [ '0.1.0', '1.0.0', '1.0.1' ] ]
+1196 verbose addNamed [ 'mime-types', '1.0.1' ]
+1197 verbose addNamed [ '1.0.1', '1.0.1' ]
+1198 silly lockFile 06567ba2-mime-types-1-0-1 mime-types@1.0.1
+1199 verbose lock mime-types@1.0.1 /Users/caly/.npm/06567ba2-mime-types-1-0-1.lock
+1200 silly addNameRange number 2 { name: 'http-signature',
+1200 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+1200 silly addNameRange   hasData: true }
+1201 silly addNameRange versions [ 'http-signature',
+1201 silly addNameRange   [ '0.9.0',
+1201 silly addNameRange     '0.9.2',
+1201 silly addNameRange     '0.9.3',
+1201 silly addNameRange     '0.9.4',
+1201 silly addNameRange     '0.9.5',
+1201 silly addNameRange     '0.9.6',
+1201 silly addNameRange     '0.9.7',
+1201 silly addNameRange     '0.9.8',
+1201 silly addNameRange     '0.9.9',
+1201 silly addNameRange     '0.9.10',
+1201 silly addNameRange     '0.9.11',
+1201 silly addNameRange     '0.10.0' ] ]
+1202 verbose addNamed [ 'http-signature', '0.10.0' ]
+1203 verbose addNamed [ '0.10.0', '0.10.0' ]
+1204 silly lockFile f628681c-http-signature-0-10-0 http-signature@0.10.0
+1205 verbose lock http-signature@0.10.0 /Users/caly/.npm/f628681c-http-signature-0-10-0.lock
+1206 http 304 https://registry.npmjs.org/node-uuid
+1207 silly registry.get cb [ 304,
+1207 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1207 silly registry.get     server: 'Apache',
+1207 silly registry.get     via: '1.1 varnish',
+1207 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1207 silly registry.get     'cache-control': 'max-age=30',
+1207 silly registry.get     etag: '"1S3GCF9P64ZACPI5ITM3KIHA6"',
+1207 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1207 silly registry.get     'x-cache': 'HIT',
+1207 silly registry.get     'x-cache-hits': '1',
+1207 silly registry.get     'x-timer': 'S1404785718.258013,VS0,VE0',
+1207 silly registry.get     vary: 'Accept',
+1207 silly registry.get     'content-length': '0',
+1207 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1207 silly registry.get     connection: 'Keep-Alive' } ]
+1208 verbose etag node-uuid from cache
+1209 http 304 https://registry.npmjs.org/form-data
+1210 silly registry.get cb [ 304,
+1210 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1210 silly registry.get     server: 'Apache',
+1210 silly registry.get     via: '1.1 varnish',
+1210 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1210 silly registry.get     'cache-control': 'max-age=30',
+1210 silly registry.get     etag: '"7DXTXSDCEIF071ZAQS7WN047R"',
+1210 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+1210 silly registry.get     'x-cache': 'HIT',
+1210 silly registry.get     'x-cache-hits': '1',
+1210 silly registry.get     'x-timer': 'S1404785718.257738,VS0,VE0',
+1210 silly registry.get     vary: 'Accept',
+1210 silly registry.get     'content-length': '0',
+1210 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1210 silly registry.get     connection: 'Keep-Alive' } ]
+1211 verbose etag form-data from cache
+1212 http 304 https://registry.npmjs.org/forever-agent
+1213 silly registry.get cb [ 304,
+1213 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1213 silly registry.get     server: 'Apache',
+1213 silly registry.get     via: '1.1 varnish',
+1213 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:07 GMT',
+1213 silly registry.get     'cache-control': 'max-age=30',
+1213 silly registry.get     etag: '"CYWZJILR3M157HRX9R094YZJP"',
+1213 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+1213 silly registry.get     'x-cache': 'HIT',
+1213 silly registry.get     'x-cache-hits': '2',
+1213 silly registry.get     'x-timer': 'S1404785718.258798,VS0,VE0',
+1213 silly registry.get     vary: 'Accept',
+1213 silly registry.get     'content-length': '0',
+1213 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1213 silly registry.get     connection: 'Keep-Alive' } ]
+1214 verbose etag forever-agent from cache
+1215 http 200 https://registry.npmjs.org/qs
+1216 silly registry.get cb [ 200,
+1216 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1216 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1216 silly registry.get     etag: '"ABZMBCCHKVIHUGZMR1AXD5HY8"',
+1216 silly registry.get     'content-type': 'application/json',
+1216 silly registry.get     'cache-control': 'max-age=30',
+1216 silly registry.get     'content-length': '24417',
+1216 silly registry.get     'accept-ranges': 'bytes',
+1216 silly registry.get     via: '1.1 varnish',
+1216 silly registry.get     age: '1007',
+1216 silly registry.get     'x-served-by': 'cache-sjc3131-SJC',
+1216 silly registry.get     'x-cache': 'HIT',
+1216 silly registry.get     'x-cache-hits': '145',
+1216 silly registry.get     'x-timer': 'S1404785718.242480,VS0,VE0',
+1216 silly registry.get     vary: 'Accept',
+1216 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1216 silly registry.get     connection: 'Keep-Alive' } ]
+1217 http 200 https://registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1218 http 304 https://registry.npmjs.org/hawk
+1219 silly registry.get cb [ 304,
+1219 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1219 silly registry.get     server: 'Apache',
+1219 silly registry.get     via: '1.1 varnish',
+1219 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1219 silly registry.get     'cache-control': 'max-age=30',
+1219 silly registry.get     etag: '"8OYGUWEVR2EN7SOD8YZ0D7VKB"',
+1219 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1219 silly registry.get     'x-cache': 'HIT',
+1219 silly registry.get     'x-cache-hits': '1',
+1219 silly registry.get     'x-timer': 'S1404785718.269719,VS0,VE0',
+1219 silly registry.get     vary: 'Accept',
+1219 silly registry.get     'content-length': '0',
+1219 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1219 silly registry.get     connection: 'Keep-Alive' } ]
+1220 verbose etag hawk from cache
+1221 http 304 https://registry.npmjs.org/tough-cookie
+1222 silly registry.get cb [ 304,
+1222 silly registry.get   { date: 'Tue, 08 Jul 2014 02:15:18 GMT',
+1222 silly registry.get     server: 'Apache',
+1222 silly registry.get     via: '1.1 varnish',
+1222 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 02:15:18 GMT',
+1222 silly registry.get     'cache-control': 'max-age=30',
+1222 silly registry.get     etag: '"1UPI10TCWUXXCJDOICISVEFTA"',
+1222 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+1222 silly registry.get     'x-cache': 'HIT',
+1222 silly registry.get     'x-cache-hits': '1',
+1222 silly registry.get     'x-timer': 'S1404785718.278013,VS0,VE1',
+1222 silly registry.get     vary: 'Accept',
+1222 silly registry.get     'content-length': '0',
+1222 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1222 silly registry.get     connection: 'Keep-Alive' } ]
+1223 verbose etag tough-cookie from cache
+1224 silly addNameRange number 2 { name: 'aws-sign2', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+1225 silly addNameRange versions [ 'aws-sign2', [ '0.4.0', '0.5.0' ] ]
+1226 verbose addNamed [ 'aws-sign2', '0.5.0' ]
+1227 verbose addNamed [ '0.5.0', '0.5.0' ]
+1228 silly lockFile 5a1dbd9b-aws-sign2-0-5-0 aws-sign2@0.5.0
+1229 verbose lock aws-sign2@0.5.0 /Users/caly/.npm/5a1dbd9b-aws-sign2-0-5-0.lock
+1230 silly lockFile 1d9ebe76-json-stringify-safe-5-0-0 json-stringify-safe@5.0.0
+1231 silly lockFile 1d9ebe76-json-stringify-safe-5-0-0 json-stringify-safe@5.0.0
+1232 http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1233 silly lockFile 063b1a01-json-stringify-safe-5-0-0 json-stringify-safe@~5.0.0
+1234 silly lockFile 063b1a01-json-stringify-safe-5-0-0 json-stringify-safe@~5.0.0
+1235 silly lockFile ab0fd229--mime-types-mime-types-1-0-1-tgz https://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz
+1236 verbose lock https://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz /Users/caly/.npm/ab0fd229--mime-types-mime-types-1-0-1-tgz.lock
+1237 silly addNameRange number 2 { name: 'oauth-sign',
+1237 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+1237 silly addNameRange   hasData: true }
+1238 silly addNameRange versions [ 'oauth-sign', [ '0.2.0', '0.3.0', '0.4.0' ] ]
+1239 verbose addNamed [ 'oauth-sign', '0.3.0' ]
+1240 verbose addNamed [ '0.3.0', '0.3.0' ]
+1241 silly lockFile ae61e7c5-oauth-sign-0-3-0 oauth-sign@0.3.0
+1242 verbose lock oauth-sign@0.3.0 /Users/caly/.npm/ae61e7c5-oauth-sign-0-3-0.lock
+1243 silly gunzTarPerm extractEntry lib/properties/strokeOpacity.js
+1244 silly gunzTarPerm extractEntry lib/properties/webkitBorderFit.js
+1245 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz',
+1245 verbose addRemoteTarball   '4d9ad71bcd4cdef6be892c21b5b81645607c0b8f' ]
+1246 silly lockFile d3ccfadd-tunnel-agent-0-4-0 tunnel-agent@0.4.0
+1247 silly lockFile d3ccfadd-tunnel-agent-0-4-0 tunnel-agent@0.4.0
+1248 silly lockFile 2550750e-tunnel-agent-0-4-0 tunnel-agent@~0.4.0
+1249 silly lockFile 2550750e-tunnel-agent-0-4-0 tunnel-agent@~0.4.0
+1250 silly addNameRange number 2 { name: 'qs', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+1251 silly addNameRange versions [ 'qs',
+1251 silly addNameRange   [ '0.0.1',
+1251 silly addNameRange     '0.0.2',
+1251 silly addNameRange     '0.0.3',
+1251 silly addNameRange     '0.0.4',
+1251 silly addNameRange     '0.0.5',
+1251 silly addNameRange     '0.0.6',
+1251 silly addNameRange     '0.0.7',
+1251 silly addNameRange     '0.1.0',
+1251 silly addNameRange     '0.2.0',
+1251 silly addNameRange     '0.3.0',
+1251 silly addNameRange     '0.3.1',
+1251 silly addNameRange     '0.3.2',
+1251 silly addNameRange     '0.4.0',
+1251 silly addNameRange     '0.4.1',
+1251 silly addNameRange     '0.4.2',
+1251 silly addNameRange     '0.5.0',
+1251 silly addNameRange     '0.5.1',
+1251 silly addNameRange     '0.5.2',
+1251 silly addNameRange     '0.5.3',
+1251 silly addNameRange     '0.5.4',
+1251 silly addNameRange     '0.5.5',
+1251 silly addNameRange     '0.5.6',
+1251 silly addNameRange     '0.6.0',
+1251 silly addNameRange     '0.6.1',
+1251 silly addNameRange     '0.6.2',
+1251 silly addNameRange     '0.6.3',
+1251 silly addNameRange     '0.6.4',
+1251 silly addNameRange     '0.6.5',
+1251 silly addNameRange     '0.6.6' ] ]
+1252 verbose addNamed [ 'qs', '0.6.6' ]
+1253 verbose addNamed [ '0.6.6', '0.6.6' ]
+1254 silly lockFile b8bccda2-qs-0-6-6 qs@0.6.6
+1255 verbose lock qs@0.6.6 /Users/caly/.npm/b8bccda2-qs-0-6-6.lock
+1256 silly addNameRange number 2 { name: 'tough-cookie', range: '>=0.12.0', hasData: true }
+1257 silly addNameRange versions [ 'tough-cookie',
+1257 silly addNameRange   [ '0.9.0',
+1257 silly addNameRange     '0.9.1',
+1257 silly addNameRange     '0.9.3',
+1257 silly addNameRange     '0.9.4',
+1257 silly addNameRange     '0.9.5',
+1257 silly addNameRange     '0.9.6',
+1257 silly addNameRange     '0.9.7',
+1257 silly addNameRange     '0.9.8',
+1257 silly addNameRange     '0.9.9',
+1257 silly addNameRange     '0.9.11',
+1257 silly addNameRange     '0.9.12',
+1257 silly addNameRange     '0.9.13',
+1257 silly addNameRange     '0.9.14',
+1257 silly addNameRange     '0.9.15',
+1257 silly addNameRange     '0.10.0',
+1257 silly addNameRange     '0.11.0',
+1257 silly addNameRange     '0.12.0',
+1257 silly addNameRange     '0.12.1' ] ]
+1258 verbose addNamed [ 'tough-cookie', '0.12.1' ]
+1259 verbose addNamed [ '0.12.1', '0.12.1' ]
+1260 silly lockFile 9dd6163b-tough-cookie-0-12-1 tough-cookie@0.12.1
+1261 verbose lock tough-cookie@0.12.1 /Users/caly/.npm/9dd6163b-tough-cookie-0-12-1.lock
+1262 silly addNameRange number 2 { name: 'node-uuid', range: '>=1.4.0-0 <1.5.0-0', hasData: true }
+1263 silly addNameRange versions [ 'node-uuid',
+1263 silly addNameRange   [ '1.2.0',
+1263 silly addNameRange     '1.3.0',
+1263 silly addNameRange     '1.3.1',
+1263 silly addNameRange     '1.3.2',
+1263 silly addNameRange     '1.1.0',
+1263 silly addNameRange     '1.0.0',
+1263 silly addNameRange     '1.3.3',
+1263 silly addNameRange     '1.4.0',
+1263 silly addNameRange     '1.4.1' ] ]
+1264 verbose addNamed [ 'node-uuid', '1.4.1' ]
+1265 verbose addNamed [ '1.4.1', '1.4.1' ]
+1266 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+1267 verbose lock node-uuid@1.4.1 /Users/caly/.npm/7c2028cd-node-uuid-1-4-1.lock
+1268 silly addNameRange number 2 { name: 'forever-agent',
+1268 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+1268 silly addNameRange   hasData: true }
+1269 silly addNameRange versions [ 'forever-agent',
+1269 silly addNameRange   [ '0.2.0', '0.3.0', '0.4.0', '0.5.0', '0.5.2' ] ]
+1270 verbose addNamed [ 'forever-agent', '0.5.2' ]
+1271 verbose addNamed [ '0.5.2', '0.5.2' ]
+1272 silly lockFile 20c7a74d-forever-agent-0-5-2 forever-agent@0.5.2
+1273 verbose lock forever-agent@0.5.2 /Users/caly/.npm/20c7a74d-forever-agent-0-5-2.lock
+1274 silly addNameRange number 2 { name: 'form-data', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+1275 silly addNameRange versions [ 'form-data',
+1275 silly addNameRange   [ '0.0.0',
+1275 silly addNameRange     '0.0.2',
+1275 silly addNameRange     '0.0.3',
+1275 silly addNameRange     '0.0.4',
+1275 silly addNameRange     '0.0.5',
+1275 silly addNameRange     '0.0.6',
+1275 silly addNameRange     '0.0.7',
+1275 silly addNameRange     '0.0.8',
+1275 silly addNameRange     '0.0.9',
+1275 silly addNameRange     '0.0.10',
+1275 silly addNameRange     '0.1.0',
+1275 silly addNameRange     '0.1.1',
+1275 silly addNameRange     '0.1.2',
+1275 silly addNameRange     '0.1.3',
+1275 silly addNameRange     '0.1.4' ] ]
+1276 verbose addNamed [ 'form-data', '0.1.4' ]
+1277 verbose addNamed [ '0.1.4', '0.1.4' ]
+1278 silly lockFile 3912a592-form-data-0-1-4 form-data@0.1.4
+1279 verbose lock form-data@0.1.4 /Users/caly/.npm/3912a592-form-data-0-1-4.lock
+1280 silly lockFile 493457d4-ry-npmjs-org-hawk-hawk-1-1-1-tgz https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz
+1281 verbose lock https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz /Users/caly/.npm/493457d4-ry-npmjs-org-hawk-hawk-1-1-1-tgz.lock
+1282 info retry fetch attempt 1 at 19:15:18
+1283 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz
+1284 silly lockFile f628681c-http-signature-0-10-0 http-signature@0.10.0
+1285 silly lockFile f628681c-http-signature-0-10-0 http-signature@0.10.0
+1286 silly lockFile 5a1dbd9b-aws-sign2-0-5-0 aws-sign2@0.5.0
+1287 silly lockFile 5a1dbd9b-aws-sign2-0-5-0 aws-sign2@0.5.0
+1288 verbose addRemoteTarball [ 'https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz',
+1288 verbose addRemoteTarball   '87cd491f9b46e4e2aeaca335416766885d2d1ed9' ]
+1289 http GET https://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz
+1290 silly lockFile 8170f292-http-signature-0-10-0 http-signature@~0.10.0
+1291 silly lockFile 8170f292-http-signature-0-10-0 http-signature@~0.10.0
+1292 silly lockFile 82387911-aws-sign2-0-5-0 aws-sign2@~0.5.0
+1293 silly lockFile 82387911-aws-sign2-0-5-0 aws-sign2@~0.5.0
+1294 silly gunzTarPerm extractEntry lib/properties/strokeMiterlimit.js
+1295 silly gunzTarPerm extractEntry lib/properties/webkitBorderHorizontalSpacing.js
+1296 silly lockFile ae61e7c5-oauth-sign-0-3-0 oauth-sign@0.3.0
+1297 silly lockFile ae61e7c5-oauth-sign-0-3-0 oauth-sign@0.3.0
+1298 silly lockFile 31e73d2e-stry-npmjs-org-nan-nan-1-0-0-tgz https://registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1299 silly lockFile 31e73d2e-stry-npmjs-org-nan-nan-1-0-0-tgz https://registry.npmjs.org/nan/-/nan-1.0.0.tgz
+1300 info retry fetch attempt 1 at 19:15:18
+1301 verbose fetch to= /var/folders/gx/t6gdzbf534gddqjsb18jzwl00000gn/T/npm-4721-xNan-yOX/registry.npmjs.org/hawk/-/hawk-1.1.1.tgz
+1302 silly lockFile 7fb5c7f1-oauth-sign-0-3-0 oauth-sign@~0.3.0
+1303 silly lockFile 7fb5c7f1-oauth-sign-0-3-0 oauth-sign@~0.3.0
+1304 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+1305 silly lockFile cc7fa090-nan-1-0-0 nan@1.0.0
+1306 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+1307 silly lockFile 66a60b03-nan-1-0-0 nan@~1.0.0
+1308 http GET https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz
+1309 silly lockFile b8bccda2-qs-0-6-6 qs@0.6.6
+1310 silly lockFile b8bccda2-qs-0-6-6 qs@0.6.6
+1311 verbose about to build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify
+1312 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/contextify unbuild
+1313 info preuninstall contextify@0.1.8
+1314 silly lockFile 9dd6163b-tough-cookie-0-12-1 tough-cookie@0.12.1
+1315 silly lockFile 9dd6163b-tough-cookie-0-12-1 tough-cookie@0.12.1
+1316 silly lockFile 222bee9e-qs-0-6-0 qs@~0.6.0
+1317 silly lockFile 222bee9e-qs-0-6-0 qs@~0.6.0
+1318 silly lockFile 66c18ba7-tough-cookie-0-12-0 tough-cookie@>=0.12.0
+1319 silly lockFile 66c18ba7-tough-cookie-0-12-0 tough-cookie@>=0.12.0
+1320 silly lockFile 20c7a74d-forever-agent-0-5-2 forever-agent@0.5.2
+1321 silly lockFile 20c7a74d-forever-agent-0-5-2 forever-agent@0.5.2
+1322 info uninstall contextify@0.1.8
+1323 silly lockFile 3912a592-form-data-0-1-4 form-data@0.1.4
+1324 silly lockFile 3912a592-form-data-0-1-4 form-data@0.1.4
+1325 silly lockFile fa463915-forever-agent-0-5-0 forever-agent@~0.5.0
+1326 silly lockFile fa463915-forever-agent-0-5-0 forever-agent@~0.5.0
+1327 silly lockFile 26aa13f4-form-data-0-1-0 form-data@~0.1.0
+1328 silly lockFile 26aa13f4-form-data-0-1-0 form-data@~0.1.0
+1329 silly lockFile 854da652-les-jsdom-node-modules-nwmatcher tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher
+1330 silly lockFile 854da652-les-jsdom-node-modules-nwmatcher tar:///Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher
+1331 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+1332 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+1333 verbose false,/Users/caly/Project-Mapping/node_modules,/Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules unbuild contextify@0.1.8
+1334 info postuninstall contextify@0.1.8
+1335 silly gunzTarPerm extractEntry lib/properties/strokeLinejoin.js
+1336 silly gunzTarPerm extractEntry lib/properties/webkitBorderImage.js
+1337 silly lockFile aaad2975--npm-nwmatcher-1-3-3-package-tgz tar:///Users/caly/.npm/nwmatcher/1.3.3/package.tgz
+1338 silly lockFile aaad2975--npm-nwmatcher-1-3-3-package-tgz tar:///Users/caly/.npm/nwmatcher/1.3.3/package.tgz
+1339 silly lockFile f662725f-node-uuid-1-4-0 node-uuid@~1.4.0
+1340 silly lockFile f662725f-node-uuid-1-4-0 node-uuid@~1.4.0
+1341 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1342 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+1343 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+1344 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+1345 silly lockFile a3858fc2-bindings bindings@*
+1346 silly lockFile a3858fc2-bindings bindings@*
+1347 info preinstall nwmatcher@1.3.3
+1348 verbose readDependencies using package.json deps
+1349 silly gunzTarPerm extractEntry lib/properties/strokeLinecap.js
+1350 silly gunzTarPerm extractEntry lib/properties/webkitBorderRadius.js
+1351 verbose readDependencies using package.json deps
+1352 silly resolved []
+1353 verbose about to build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher
+1354 info build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/nwmatcher
+1355 verbose linkStuff [ false,
+1355 verbose linkStuff   false,
+1355 verbose linkStuff   false,
+1355 verbose linkStuff   '/Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules' ]
+1356 info linkStuff nwmatcher@1.3.3
+1357 verbose linkBins nwmatcher@1.3.3
+1358 verbose linkMans nwmatcher@1.3.3
+1359 verbose rebuildBundles nwmatcher@1.3.3
+1360 info install nwmatcher@1.3.3
+1361 verbose about to build /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom
+1362 info /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom unbuild
+1363 info preuninstall jsdom@0.5.7
+1364 info postinstall nwmatcher@1.3.3
+1365 info uninstall jsdom@0.5.7
+1366 verbose false,/Users/caly/Project-Mapping/node_modules,/Users/caly/Project-Mapping/node_modules/d3/node_modules unbuild jsdom@0.5.7
+1367 info postuninstall jsdom@0.5.7
+1368 silly gunzTarPerm extractEntry lib/properties/strokeDashoffset.js
+1369 silly gunzTarPerm extractEntry lib/properties/webkitBorderStart.js
+1370 silly gunzTarPerm extractEntry lib/properties/strokeDasharray.js
+1371 silly gunzTarPerm extractEntry lib/properties/webkitBorderStartColor.js
+1372 error EEXIST, mkdir '/Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser/tests'
+File exists: /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser/tests
+Move it away, and try again.
+1373 error System Darwin 13.1.0
+1374 error command "node" "/usr/local/bin/npm" "install" "d3"
+1375 error cwd /Users/caly/Project-Mapping
+1376 error node -v v0.10.26
+1377 error npm -v 1.4.14
+1378 error path /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser/tests
+1379 error fstream_path /Users/caly/Project-Mapping/node_modules/d3/node_modules/jsdom/node_modules/htmlparser/tests/19-ignore_empty_tags.js
+1380 error fstream_type File
+1381 error fstream_class FileWriter
+1382 error code EEXIST
+1383 error errno 47
+1384 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:171:23
+1384 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+1384 error fstream_stack Object.oncomplete (fs.js:107:15)
+1385 verbose exit [ 47, true ]
