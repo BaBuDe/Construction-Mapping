@@ -1,3 +1,31 @@
+angular.module('d3', [])
+.factory('d3Service', ['$document', '$window', '$q', '$rootScope',
+  function($document, $window, $q, $rootScope) {
+    var d = $q.defer(),
+        d3service = {
+          d3: function() { return d.promise; }
+        };
+  function onScriptLoad() {
+    // Load client in the browser
+    $rootScope.$apply(function() { d.resolve($window.d3); });
+  }
+  var scriptTag = $document[0].createElement('script');
+  scriptTag.type = 'text/javascript'; 
+  scriptTag.async = true;
+  scriptTag.src = 'http://d3js.org/d3.v3.min.js';
+  scriptTag.onreadystatechange = function () {
+    if (this.readyState == 'complete') onScriptLoad();
+  }
+  scriptTag.onload = onScriptLoad;
+ 
+  var s = $document[0].getElementsByTagName('body')[0];
+  s.appendChild(scriptTag);
+ 
+  return d3service;
+}]);
+
+
+
 var margin = {
     top: 20,
     right: 20,
@@ -41,13 +69,6 @@ var svg = d3.select("body").append("svg")
 
 // Fetch data via SODA from the Chicago data site
 d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?planning_neighborhood=" + neighborhoodSelected + "&$select=units,best_stat", function (error, data) {
-    // // Make sure our numbers are really numbers
-    // data.forEach(function (d) {
-    //     d.planning_neighborhood = +d.planning_neighborhood;
-    //     d.bus = +d.bus;
-    //     d.paratransit = +d.paratransit;
-    //     d.rail = +d.rail;
-    // });
 
     console.log(data);
 
@@ -80,12 +101,6 @@ d3.csv("http://data.sfgov.org/resource/g383-7xmf.csv?planning_neighborhood=" + n
     }
     console.log(constructionData);
 
-    // Sort by planning_neighborhood
-    // data.sort(function (a, b) {
-    //     return a.planning_neighborhood - b.planning_neighborhood;
-    // });
-
-    // Our X domain is our set of years
     x.domain(data.map(function (d) {
         // return d.planning_neighborhood;
         return d['Best Stat'];
