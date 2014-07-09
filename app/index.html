@@ -8,17 +8,29 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <title>SF Neighborhood Construction Pipeline</title>
+</head>
+<body>
+
+  <h1>SF Neighborhood Construction</h1>
+  <div id="map"></div>
+  <div ng-controller="menuController" class="hoodMenu">
+    <select ng-change="selectAction()" ng-model="selectedHood" ng-options="hood for hood in neighborhoods">
+      <option value="">Select Neighborhood</option>
+    </select>
+        <d3-bars></d3-bars>
+  </div>
+
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/map.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <!-- // <script src="js/filters.js"></script> -->
   <script src="js/directives.js"></script>
-  <title>SF Neighborhood Construction Pipeline</title>
-</head>
-<body>
-  <div ng-view></div>
 </body>
 </html>

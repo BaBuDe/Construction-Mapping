@@ -13,9 +13,11 @@ angular.module('myApp', [
   'myApp.directives'
 ])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {templateUrl: 'partials/partial1.html', controller: 'menuController'});
-  // $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
-  $routeProvider.otherwise({redirectTo: '/'});
-}]);
+// .config(['$routeProvider', function($routeProvider) {
+//   $routeProvider.when('/', {templateUrl: 'partials/partial1.html', controller: 'menuController'});
+//   // $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
+//   $routeProvider.otherwise({redirectTo: '/'});
+// }]);
+
+
 
